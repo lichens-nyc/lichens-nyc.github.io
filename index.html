@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>
+  nick patch
+</title>
+<style type="text/css">
+body, table {
+  text-align: center;
+}
+table {
+  margin-right: auto;
+  margin-left: auto;
+}
+img {
+  border: 1px black solid;
+}
+</style>
+</head>
+<body>
+<div style="height: 100%; float: right">
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 5,
+  interval: 6000,
+  width: 250,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#ffffff',
+      color: '#000000'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#000000',
+      links: '#0000ff'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    hashtags: true,
+    timestamp: true,
+    avatars: false,
+    behavior: 'all'
+  }
+}).render().setUser('nickeats').start();
+</script>
+</div>
+<h1>
+  nick patch
+</h1>
+<div>
+  <a href="nutmilk">
+    <img src="nutmilk/nutmilk-pg01.jpg" width="250" alt="Making Milk out of Nuts and Seeds (Boston Skillshare 2009)">
+  </a>
+</div>
+<p>
+  a little zine of recipes from <a href="http://www.bostonskillshare.org/2010/Edible+Wild+Plants">urban foraging for edible wild plants</a> at the boston skillshare 2010 coming "soon"
+</p>
+<p>
+  <a href="http://twitter.com/nickeats">@nickeats</a> is my microblog on food, foraging, and fermentation
+</p>
+<table style="background-color: #fff; padding: 5px">
+  <tr><td style="padding-left: 5px">
+    join the <a href="http://groups.google.com/group/forage-boston">forage boston</a> discussion list
+  </td></tr>
+  <tr><td style="padding-left: 5px">
+    <form action="http://groups.google.com/group/forage-boston/boxsubscribe">
+      e-mail: <input type=text name=email>
+      <input type=submit name="sub" value="subscribe">
+    </form>
+  </td></tr>
+</table>
+<p>
+  <i>last updated: Fri Jul 30  8:01:50 EDT 2010</i>
+</p>
+</body>
+</html>

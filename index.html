@@ -15,13 +15,45 @@ body {
     background-color: black;
     text-align: center;
 }
+.link {
+    font-weight: bold;
+    font-size: 2em;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+}
+.label {
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+#nature.link {
+    background: url('nature/images/morels.jpg');
+}
+#code.link {
+    background: url('code/images/manhoru.jpg');
+}
+#nature span.label {
+    right: 0.25em;
+}
+#code span.label {
+    left: 0.25em;
+}
 :link, :visited {
-    color: gray;
     text-decoration: none;
 }
-:link:hover,    :link:focus,    :link:active,
-:visited:hover, :visited:focus, :visited:active {
+#nature:link, #nature:visited {
     color: white;
+}
+#code:link, #code:visited {
+    color: black;
+}
+#nature:link:hover,    #nature:link:focus,    #nature:link:active,
+#nature:visited:hover, #nature:visited:focus, #nature:visited:active,
+#code:link:hover,    #code:link:focus,    #code:link:active,
+#code:visited:hover, #code:visited:focus, #code:visited:active {
+    color: #990000;
 }
 </style>
 </head>
@@ -30,10 +62,12 @@ body {
     Nick Patch
 </h1>
 <div>
-    <img src="manhoru.jpg" alt="nick patch—manhoru" />
+    <a href="nature" id="nature" class="link">
+        <span class="label">nature</span>
+    </a>
+    <a href="code" id="code" class="link">
+        <span class="label">code</span>
+    </a>
 </div>
-<p>
-    <a href="code">code</a> • <a href="nature">nature</a>
-</p>
 </body>
 </html>

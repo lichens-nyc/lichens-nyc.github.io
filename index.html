@@ -4,7 +4,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 <title>Nick Patch</title>
-<meta name="description" content="Polyglot hacker" />
 <meta name="author" content="Nick Patch" />
 <meta name="copyright" content="© 2010–2014 Nick Patch" />
 <link rel="SHORTCUT ICON" href="/favicon.ico" />
@@ -52,22 +51,36 @@ body {
 #nature:link:hover,    #nature:link:focus,    #nature:link:active,
 #nature:visited:hover, #nature:visited:focus, #nature:visited:active,
 #code:link:hover,    #code:link:focus,    #code:link:active,
-#code:visited:hover, #code:visited:focus, #code:visited:active {
+#code:visited:hover, #code:visited:focus, #code:visited:active,
+a:link:hover,    a:link:focus,    a:link:active,
+a:visited:hover, a:visited:focus, a:visited:active {
     color: #990000;
 }
+a:link, a:visited {
+    font-weight: bold;
+    color: white;
+}
+
 </style>
 </head>
 <body>
 <h1>
     Nick Patch
 </h1>
-<div>
+<div style="width: 810px; text-align: center; margin-left: auto; margin-right: auto">
     <a href="nature" id="nature" class="link">
         <span class="label">nature</span>
     </a>
     <a href="code" id="code" class="link">
         <span class="label">code</span>
     </a>
+    <p style="text-align: left; margin-bottom: 0.5em">
+        Howdy! This site has two sections:
+    </p>
+    <ul style="text-align: left; margin-top: 0">
+        <li type="circle" style="margin-bottom: 0.5em"><a href="nature">nature</a> includes my interests in botany, mycology, lichenology, foraging for edible wild plants and fungi, and wilderness survival;</li>
+        <li type="circle">while <a href="code">code</a> includes my interests in open source, internationalization, localization, multilingual information retrieval, natural language processing, and Unicode.</li>
+    </ul>
 </div>
 </body>
 </html>

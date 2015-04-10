@@ -1,6 +1,6 @@
 ---
 title:     Lichens of New York City
-permalink: /lichens/nyc
+permalink: /lichens/nyc/
 layout:    page
 ---
 

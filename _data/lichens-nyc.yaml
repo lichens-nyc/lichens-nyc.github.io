@@ -1,59 +1,118 @@
 - name: Acarospora
   species:
   - name: fuscata
+    boroughs:
+    - Manhattan
 - name: Caloplaca
   species:
   - name: feracissima
+    boroughs:
+    - Manhattan
 - name: Candelaria
   species:
   - name: concolor
+    boroughs:
+    - Brooklyn
+    - Manhattan
 - name: Cladonia
+  boroughs:
+  - Bronx
+  - Brooklyn
+  - Manhattan
 - name: Flavoparmelia
   species:
   - name: baltimorensis
+    boroughs:
+    - Manhattan
   - name: caperata
+    boroughs:
+    - Bronx
+    - Brooklyn
+    - Manhattan
 - name: Flavopunctelia
   species:
   - name: soredica
+    boroughs:
+    - Manhattan
 - name: Lecanora
   species:
   - name: strobilina
+    boroughs:
+    - Manhattan
 - name: Lepraria
   species:
   - name: finkii
+    boroughs:
+    - Manhattan
 - name: Myelochroa
   species:
   - name: aurulenta
+    boroughs:
+    - Manhattan
 - name: Parmelia
   species:
   - name: sulcata
+    boroughs:
+    - Brooklyn
+    - Manhattan
 - name: Parmotrema
   species:
   - name: hypotropum
+    boroughs:
+    - Manhattan
   - name: perlatum
+    boroughs:
+    - Brooklyn
 - name: Phaeophyscia
   species:
   - name: adiastola
+    boroughs:
+    - Manhattan
   - name: rubropulchra
+    boroughs:
+    - Manhattan
 - name: Physcia
   species:
   - name: adscendens
+    boroughs:
+    - Brooklyn
   - name: millegrana
+    boroughs:
+    - Brooklyn
+    - Manhattan
   - name: stellaris
+    boroughs:
+    - Brooklyn
+    - Manhattan
 - name: Physciella
   species:
   - name: chloantha
+    boroughs:
+    - Manhattan
 - name: Punctelia
   species:
   - name: caseana
+    boroughs:
+    - Manhattan
   - name: rudecta
+    boroughs:
+    - Brooklyn
+    - Manhattan
 - name: Rinodina
+  boroughs:
+  - Brooklyn
 - name: Sarcogyne
   species:
   - name: clavus
+    boroughs:
+    - Manhattan
 - name: Trapelia
   species:
   - name: placodioides
+    boroughs:
+    - Manhattan
 - name: Xanthoparmelia
   species:
   - name: plittii
+    boroughs:
+    - Manhattan

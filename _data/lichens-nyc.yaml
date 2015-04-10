@@ -1,0 +1,59 @@
+- name: Acarospora
+  species:
+  - name: fuscata
+- name: Caloplaca
+  species:
+  - name: feracissima
+- name: Candelaria
+  species:
+  - name: concolor
+- name: Cladonia
+- name: Flavoparmelia
+  species:
+  - name: baltimorensis
+  - name: caperata
+- name: Flavopunctelia
+  species:
+  - name: soredica
+- name: Lecanora
+  species:
+  - name: strobilina
+- name: Lepraria
+  species:
+  - name: finkii
+- name: Myelochroa
+  species:
+  - name: aurulenta
+- name: Parmelia
+  species:
+  - name: sulcata
+- name: Parmotrema
+  species:
+  - name: hypotropum
+  - name: perlatum
+- name: Phaeophyscia
+  species:
+  - name: adiastola
+  - name: rubropulchra
+- name: Physcia
+  species:
+  - name: adscendens
+  - name: millegrana
+  - name: stellaris
+- name: Physciella
+  species:
+  - name: chloantha
+- name: Punctelia
+  species:
+  - name: caseana
+  - name: rudecta
+- name: Rinodina
+- name: Sarcogyne
+  species:
+  - name: clavus
+- name: Trapelia
+  species:
+  - name: placodioides
+- name: Xanthoparmelia
+  species:
+  - name: plittii

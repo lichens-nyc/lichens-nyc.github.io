@@ -1,0 +1,10 @@
+title:            Nick Patch
+email:            patch@cpan.org
+description:      Nick Patch on lichens and unicode
+baseurl:          ""
+url:              http://nickpatch.net
+twitter_username: nickpatch
+github_username:  patch
+encoding:         utf-8
+markdown:         kramdown
+timezone:         America/New_York

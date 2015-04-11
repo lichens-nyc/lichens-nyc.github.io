@@ -14,7 +14,7 @@ layout:    page
 </p>
 {% if genus.species %}
 {% for species in genus.species %}
-<h4><strong><cite>{{ genus.name }} {{ species.name }}</cite></strong></h4>
+<h4><strong><cite>{{ genus.name }} {{ species.name }}</cite></strong> {{ species.auth }}</h4>
 <p>
   {% for boro in species.loc %}
     {% assign boro_key = boro[0] %}

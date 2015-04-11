@@ -1,56 +1,69 @@
 - name: Acarospora
+  form: crustose
   species:
   - name: fuscata
     boroughs: [MA]
 - name: Caloplaca
+  form: crustose
   species:
   - name: feracissima
     boroughs: [MA]
 - name: Candelaria
+  form: foliose
   species:
   - name: concolor
     boroughs: [BK, MA]
 - name: Cladonia
+  form: squamulose/fruticose
   boroughs: [BK, BX, MA]
 - name: Flavoparmelia
+  form: foliose
   species:
   - name: baltimorensis
     boroughs: [MA]
   - name: caperata
     boroughs: [BK, BX, MA]
 - name: Flavopunctelia
+  form: foliose
   species:
   - name: soredica
     boroughs: [MA]
 - name: Lecanora
+  form: crustose
   species:
   - name: strobilina
     boroughs: [MA]
 - name: Lepraria
+  form: leprose
   species:
   - name: finkii
     boroughs: [MA]
 - name: Myelochroa
+  form: foliose
   species:
   - name: aurulenta
     boroughs: [MA]
 - name: Parmelia
+  form: foliose
   species:
   - name: sulcata
     boroughs: [BK, MA]
 - name: Parmotrema
+  form: foliose
   species:
   - name: hypotropum
     boroughs: [MA]
   - name: perlatum
     boroughs: [BK]
 - name: Phaeophyscia
+  form: foliose
   species:
   - name: adiastola
     boroughs: [MA]
   - name: rubropulchra
     boroughs: [MA]
 - name: Physcia
+  form: foliose
   species:
   - name: adscendens
     boroughs: [BK]
@@ -59,26 +72,32 @@
   - name: stellaris
     boroughs: [BK, MA]
 - name: Physciella
+  form: foliose
   species:
   - name: chloantha
     boroughs: [MA]
 - name: Punctelia
+  form: foliose
   species:
   - name: caseana
     boroughs: [MA]
   - name: rudecta
     boroughs: [BK, MA]
 - name: Rinodina
+  form: crustose
   boroughs: [BK]
 - name: Sarcogyne
+  form: crustose
   species:
   - name: clavus
     boroughs: [MA]
 - name: Trapelia
+  form: crustose
   species:
   - name: placodioides
     boroughs: [MA]
 - name: Xanthoparmelia
+  form: foliose
   species:
   - name: plittii
     boroughs: [MA]

@@ -16,11 +16,14 @@ layout:    page
 <p>
   <strong>Form</strong>: {{ lichens[genus.name].form }}
 </p>
-{% if genus.species %}
 {% for species in genus.species %}
 <h4>
+{% if species.name == 'sp.' or species.name == 'spp.' %}
+  <strong><cite>{{ genus.name }}</cite> {{ species.name }}</strong>
+{% else %}
   <strong><cite>{{ genus.name }} {{ species.name }}</cite></strong>
   <span style="font-size: 0.7em">{{ lichens[genus.name].species[species.name].auth }}</span>
+{% endif %}
 </h4>
 <p>
   {% for boro in species.loc %}
@@ -33,16 +36,4 @@ layout:    page
   {% endfor %}
 </p>
 {% endfor %}
-{% else %}
-<p>
-  {% for boro in genus.loc %}
-    {% assign boro_key = boro[0] %}
-    <strong>{{ boros[boro_key] }}</strong>:
-    {% for park in boro[1] %}
-      {{ parks[park].name }}{% unless forloop.last %}, {% endunless %}
-    {% endfor %}
-    {% unless forloop.last %}<br>{% endunless %}
-  {% endfor %}
-</p>
-{% endif %}
 {% endfor %}

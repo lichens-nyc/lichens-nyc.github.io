@@ -11,7 +11,9 @@
   - name: concolor
     loc: { BX: [NY, WC], BK: [GW, PP, SP], MA: [CP] }
 - name: Cladonia
-  loc: { BX: [WC], BK: [GW], MA: [CP, IH] }
+  species:
+  - name: spp.
+    loc: { BX: [WC], BK: [GW], MA: [CP, IH] }
 - name: Flavoparmelia
   species:
   - name: baltimorensis
@@ -69,7 +71,9 @@
   - name: rudecta
     loc: { BK: [GW, PP], MA: [CP] }
 - name: Rinodina
-  loc: { BK: [GW] }
+  species:
+  - name: sp.
+    loc: { BK: [GW] }
 - name: Sarcogyne
   species:
   - name: clavus

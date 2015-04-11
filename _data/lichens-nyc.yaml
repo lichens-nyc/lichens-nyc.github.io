@@ -1,88 +1,113 @@
 - name: Acarospora
   species:
   - name: fuscata
-    loc: { MA: [CP] }
+    when: [2013]
+    where: { MA: [CP] }
 - name: Caloplaca
   species:
   - name: feracissima
-    loc: { MA: [CP] }
+    when: [2013]
+    where: { MA: [CP] }
 - name: Candelaria
   species:
   - name: concolor
-    loc: { BX: [NY, WC], BK: [GW, PP, SP], MA: [CP] }
+    when: [2013, 2014, 2015]
+    where: { BX: [NY, WC], BK: [GW, PP, SP], MA: [CP] }
 - name: Cladonia
   species:
   - name: spp.
-    loc: { BX: [WC], BK: [GW], MA: [CP, IH] }
+    when: [2013, 2014, 2015]
+    where: { BX: [WC], BK: [GW], MA: [CP, IH] }
 - name: Flavoparmelia
   species:
   - name: baltimorensis
-    loc: { MA: [CP] }
+    when: [2013]
+    where: { MA: [CP] }
   - name: caperata
-    loc: { BX: [NY, WC], BK: [GW, PP, SP], MA: [CP] }
+    when: [2013, 2014, 2015]
+    where: { BX: [NY, WC], BK: [GW, PP, SP], MA: [CP] }
 - name: Flavopunctelia
   species:
   - name: soredica
-    loc: { MA: [CP] }
+    when: [2013]
+    where: { MA: [CP] }
 - name: Lecanora
   species:
   - name: strobilina
-    loc: { MA: [CP] }
+    when: [2013]
+    where: { MA: [CP] }
 - name: Lepraria
   species:
   - name: finkii
-    loc: { MA: [CP] }
+    when: [2013]
+    where: { MA: [CP] }
 - name: Myelochroa
   species:
   - name: aurulenta
-    loc: { MA: [CP] }
+    when: [2013]
+    where: { MA: [CP] }
 - name: Parmelia
   species:
   - name: sulcata
-    loc: { BK: [GW], MA: [CP] }
+    when: [2013, 2015]
+    where: { BK: [GW], MA: [CP] }
 - name: Parmotrema
   species:
   - name: hypotropum
-    loc: { MA: [CP] }
+    when: [2013]
+    where: { MA: [CP] }
   - name: perlatum
-    loc: { BK: [GW] }
+    when: [2015]
+    where: { BK: [GW] }
 - name: Phaeophyscia
   species:
   - name: adiastola
-    loc: { MA: [CP] }
+    when: [2013]
+    where: { MA: [CP] }
   - name: rubropulchra
-    loc: { MA: [CP] }
+    when: [2013]
+    where: { MA: [CP] }
 - name: Physcia
   species:
   - name: adscendens
-    loc: { BK: [GW] }
+    when: [2015]
+    where: { BK: [GW] }
   - name: millegrana
-    loc: { BK: [GW, PP, SP], MA: [CP] }
+    when: [2013, 2014, 2015]
+    where: { BK: [GW, PP, SP], MA: [CP] }
   - name: stellaris
-    loc: { BK: [GW], MA: [CP] }
+    when: [2013, 2015]
+    where: { BK: [GW], MA: [CP] }
 - name: Physciella
   species:
   - name: chloantha
-    loc: { MA: [CP] }
+    when: [2013]
+    where: { MA: [CP] }
 - name: Punctelia
   species:
   - name: caseana
-    loc: { MA: [CP] }
+    when: [2013]
+    where: { MA: [CP] }
   - name: rudecta
-    loc: { BK: [GW, PP], MA: [CP] }
+    when: [2013, 2014, 2015]
+    where: { BK: [GW, PP], MA: [CP] }
 - name: Rinodina
   species:
   - name: sp.
-    loc: { BK: [GW] }
+    when: [2015]
+    where: { BK: [GW] }
 - name: Sarcogyne
   species:
   - name: clavus
-    loc: { MA: [CP] }
+    when: [2013]
+    where: { MA: [CP] }
 - name: Trapelia
   species:
   - name: placodioides
-    loc: { MA: [CP] }
+    when: [2013]
+    where: { MA: [CP] }
 - name: Xanthoparmelia
   species:
   - name: plittii
-    loc: { MA: [CP] }
+    when: [2013]
+    where: { MA: [CP] }

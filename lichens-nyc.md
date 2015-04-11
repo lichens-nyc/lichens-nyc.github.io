@@ -25,15 +25,21 @@ layout:    page
   <span style="font-size: 0.7em">{{ lichens[genus.name].species[species.name].auth }}</span>
 {% endif %}
 </h4>
-<p>
-  {% for boro in species.loc %}
+<ul>
+  <li><strong>When</strong>: {{ species.when[0] }}{% if species.when[1] %}–{{ species.when[-1] }}{% endif %}</li>
+  <li><strong>Where</strong>:
+    <ul>
+    {% for boro in species.where %}
     {% assign boro_key = boro[0] %}
-    <strong>{{ boros[boro_key] }}</strong>:
-    {% for park in boro[1] %}
-      {{ parks[park].name }}{% unless forloop.last %}, {% endunless %}
+      <li>
+        <strong>{{ boros[boro_key] }}</strong>:
+        {% for park in boro[1] %}
+        {{ parks[park].name }}{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      </li>
     {% endfor %}
-    {% unless forloop.last %}<br>{% endunless %}
-  {% endfor %}
-</p>
+    </ul>
+  </li>
+</ul>
 {% endfor %}
 {% endfor %}

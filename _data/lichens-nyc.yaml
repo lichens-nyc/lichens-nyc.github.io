@@ -1,118 +1,84 @@
 - name: Acarospora
   species:
   - name: fuscata
-    boroughs:
-    - Manhattan
+    boroughs: [MA]
 - name: Caloplaca
   species:
   - name: feracissima
-    boroughs:
-    - Manhattan
+    boroughs: [MA]
 - name: Candelaria
   species:
   - name: concolor
-    boroughs:
-    - Brooklyn
-    - Manhattan
+    boroughs: [BK, MA]
 - name: Cladonia
-  boroughs:
-  - Bronx
-  - Brooklyn
-  - Manhattan
+  boroughs: [BK, BX, MA]
 - name: Flavoparmelia
   species:
   - name: baltimorensis
-    boroughs:
-    - Manhattan
+    boroughs: [MA]
   - name: caperata
-    boroughs:
-    - Bronx
-    - Brooklyn
-    - Manhattan
+    boroughs: [BK, BX, MA]
 - name: Flavopunctelia
   species:
   - name: soredica
-    boroughs:
-    - Manhattan
+    boroughs: [MA]
 - name: Lecanora
   species:
   - name: strobilina
-    boroughs:
-    - Manhattan
+    boroughs: [MA]
 - name: Lepraria
   species:
   - name: finkii
-    boroughs:
-    - Manhattan
+    boroughs: [MA]
 - name: Myelochroa
   species:
   - name: aurulenta
-    boroughs:
-    - Manhattan
+    boroughs: [MA]
 - name: Parmelia
   species:
   - name: sulcata
-    boroughs:
-    - Brooklyn
-    - Manhattan
+    boroughs: [BK, MA]
 - name: Parmotrema
   species:
   - name: hypotropum
-    boroughs:
-    - Manhattan
+    boroughs: [MA]
   - name: perlatum
-    boroughs:
-    - Brooklyn
+    boroughs: [BK]
 - name: Phaeophyscia
   species:
   - name: adiastola
-    boroughs:
-    - Manhattan
+    boroughs: [MA]
   - name: rubropulchra
-    boroughs:
-    - Manhattan
+    boroughs: [MA]
 - name: Physcia
   species:
   - name: adscendens
-    boroughs:
-    - Brooklyn
+    boroughs: [BK]
   - name: millegrana
-    boroughs:
-    - Brooklyn
-    - Manhattan
+    boroughs: [BK, MA]
   - name: stellaris
-    boroughs:
-    - Brooklyn
-    - Manhattan
+    boroughs: [BK, MA]
 - name: Physciella
   species:
   - name: chloantha
-    boroughs:
-    - Manhattan
+    boroughs: [MA]
 - name: Punctelia
   species:
   - name: caseana
-    boroughs:
-    - Manhattan
+    boroughs: [MA]
   - name: rudecta
-    boroughs:
-    - Brooklyn
-    - Manhattan
+    boroughs: [BK, MA]
 - name: Rinodina
-  boroughs:
-  - Brooklyn
+  boroughs: [BK]
 - name: Sarcogyne
   species:
   - name: clavus
-    boroughs:
-    - Manhattan
+    boroughs: [MA]
 - name: Trapelia
   species:
   - name: placodioides
-    boroughs:
-    - Manhattan
+    boroughs: [MA]
 - name: Xanthoparmelia
   species:
   - name: plittii
-    boroughs:
-    - Manhattan
+    boroughs: [MA]

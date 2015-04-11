@@ -1,6 +1,16 @@
-boroughs:
+boros:
   BK: Brooklyn
   BX: Bronx
   MA: Manhattan
   QU: Queens
   SI: Staten Island
+
+parks:
+  CP: { name: Central Park,              boro: MA }
+  GW: { name: Green-Wood Cemetery,       boro: BK }
+  HT: { name: Heffernan Triangle,        boro: BK }
+  IH: { name: Inwood Hill Park,          boro: IH }
+  NY: { name: New York Botanical Garden, boro: BX }
+  PP: { name: Prospect Park,             boro: BK }
+  SP: { name: Sunset Park,               boro: BK }
+  WC: { name: Woodlawn Cemetery,         boro: BX }

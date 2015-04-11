@@ -4,28 +4,37 @@ permalink: /lichens/nyc/
 layout:    page
 ---
 
-{% assign boroughs = site.data.locations.boroughs %}
+{% assign boros = site.data.locations.boros %}
+{% assign parks = site.data.locations.parks %}
 
 {% for genus in site.data.lichens-nyc %}
 <h2><cite>{{ genus.name }}</cite></h2>
 <p>
-  Form: {{ genus.form }}
+  <strong>Form</strong>: {{ genus.form }}
 </p>
 {% if genus.species %}
 {% for species in genus.species %}
-<h4><cite>{{ genus.name }} {{ species.name }}</cite></h4>
+<h4><strong><cite>{{ genus.name }} {{ species.name }}</cite></strong></h4>
 <p>
-  Boroughs:
-  {% for borough in species.boroughs %}
-    {{ boroughs[borough] }}{% unless forloop.last %}, {% endunless %}
+  {% for boro in species.loc %}
+    {% assign boro_key = boro[0] %}
+    <strong>{{ boros[boro_key] }}</strong>:
+    {% for park in boro[1] %}
+      {{ parks[park].name }}{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+    {% unless forloop.last %}<br>{% endunless %}
   {% endfor %}
 </p>
 {% endfor %}
 {% else %}
 <p>
-  Boroughs:
-  {% for borough in genus.boroughs %}
-    {{ boroughs[borough] }}{% unless forloop.last %}, {% endunless %}
+  {% for boro in genus.loc %}
+    {% assign boro_key = boro[0] %}
+    <strong>{{ boros[boro_key] }}</strong>:
+    {% for park in boro[1] %}
+      {{ parks[park].name }}{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+    {% unless forloop.last %}<br>{% endunless %}
   {% endfor %}
 </p>
 {% endif %}

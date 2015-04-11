@@ -1,25 +1,30 @@
 - name: Acarospora
+  auth: A.Massal. (1852)
   form: crustose
   species:
   - name: fuscata
     auth: (Schrad.) Th.Fr.
     loc: { MA: [CP] }
 - name: Caloplaca
+  auth: Th.Fr. (1871)
   form: crustose
   species:
   - name: feracissima
     auth: H.Magn.
     loc: { MA: [CP] }
 - name: Candelaria
+  auth: A.Massal. (1852)
   form: foliose
   species:
   - name: concolor
     auth: (Dicks.) Stein
     loc: { BX: [NY, WC], BK: [GW, PP, SP], MA: [CP] }
 - name: Cladonia
+  auth: Hill ex P.Browne (1756)
   form: squamulose/fruticose
   loc: { BX: [WC], BK: [GW], MA: [CP, IH] }
 - name: Flavoparmelia
+  auth: Hale (1986)
   form: foliose
   species:
   - name: baltimorensis
@@ -29,36 +34,42 @@
     auth: (L.) Hale
     loc: { BX: [NY, WC], BK: [GW, PP, SP], MA: [CP] }
 - name: Flavopunctelia
+  auth: (Krog) Hale (1984)
   form: foliose
   species:
   - name: soredica
     auth: (Nyl.) Hale
     loc: { MA: [CP] }
 - name: Lecanora
+  auth: Ach. (1809)
   form: crustose
   species:
   - name: strobilina
     auth: (Spreng.) Kieff.
     loc: { MA: [CP] }
 - name: Lepraria
+  auth: Ach. (1803)
   form: leprose
   species:
   - name: finkii
     auth: (B. de Lesd.) R.C.Harris
     loc: { MA: [CP] }
 - name: Myelochroa
+  auth: (Asahina) Elix & Hale (1987)
   form: foliose
   species:
   - name: aurulenta
     auth: (Tuck.) Elix & Hale
     loc: { MA: [CP] }
 - name: Parmelia
+  auth: Ach. (1803)
   form: foliose
   species:
   - name: sulcata
     auth: Taylor
     loc: { BK: [GW], MA: [CP] }
 - name: Parmotrema
+  auth: A.Massal. (1860)
   form: foliose
   species:
   - name: hypotropum
@@ -68,6 +79,7 @@
     auth: (Huds.) M.Choisy
     loc: { BK: [GW] }
 - name: Phaeophyscia
+  auth: Moberg (1977)
   form: foliose
   species:
   - name: adiastola
@@ -77,6 +89,7 @@
     auth: (Degel.) Essl.
     loc: { MA: [CP] }
 - name: Physcia
+  auth: (Schreb.) Michx. (1803)
   form: foliose
   species:
   - name: adscendens
@@ -89,12 +102,14 @@
     auth: (L.) Nyl.
     loc: { BK: [GW], MA: [CP] }
 - name: Physciella
+  auth: Essl. (1986)
   form: foliose
   species:
   - name: chloantha
     auth: (Ach.) Essl.
     loc: { MA: [CP] }
 - name: Punctelia
+  auth: Krog (1982)
   form: foliose
   species:
   - name: caseana
@@ -104,21 +119,25 @@
     auth: (Ach.) Krog
     loc: { BK: [GW, PP], MA: [CP] }
 - name: Rinodina
+  auth: (Ach.) Gray (1821)
   form: crustose
   loc: { BK: [GW] }
 - name: Sarcogyne
+  auth: Flot. (1851)
   form: crustose
   species:
   - name: clavus
     auth: (DC.) Kremp.
     loc: { MA: [CP] }
 - name: Trapelia
+  auth: M.Choisy (1929)
   form: crustose
   species:
   - name: placodioides
     auth: Coppins & P.James
     loc: { MA: [CP] }
 - name: Xanthoparmelia
+  auth: (Vain.) Hale (1974)
   form: foliose
   species:
   - name: plittii

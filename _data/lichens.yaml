@@ -1,0 +1,120 @@
+Acarospora:
+  auth: A.Massal. (1852)
+  form: crustose
+  species:
+  - fuscata:
+      auth: (Schrad.) Th.Fr.
+Caloplaca:
+  auth: Th.Fr. (1871)
+  form: crustose
+  species:
+    feracissima:
+      auth: H.Magn.
+Candelaria:
+  auth: A.Massal. (1852)
+  form: foliose
+  species:
+    concolor:
+      auth: (Dicks.) Stein
+Cladonia:
+  auth: Hill ex P.Browne (1756)
+  form: squamulose/fruticose
+Flavoparmelia:
+  auth: Hale (1986)
+  form: foliose
+  species:
+    baltimorensis:
+      auth: (Gyeln. & Fóriss)
+    caperata:
+      auth: (L.) Hale
+Flavopunctelia:
+  auth: (Krog) Hale (1984)
+  form: foliose
+  species:
+    soredica:
+      auth: (Nyl.) Hale
+Lecanora:
+  auth: Ach. (1809)
+  form: crustose
+  species:
+    strobilina:
+      auth: (Spreng.) Kieff.
+Lepraria:
+  auth: Ach. (1803)
+  form: leprose
+  species:
+    finkii:
+      auth: (B. de Lesd.) R.C.Harris
+Myelochroa:
+  auth: (Asahina) Elix & Hale (1987)
+  form: foliose
+  species:
+    aurulenta:
+      auth: (Tuck.) Elix & Hale
+Parmelia:
+  auth: Ach. (1803)
+  form: foliose
+  species:
+    sulcata:
+      auth: Taylor
+Parmotrema:
+  auth: A.Massal. (1860)
+  form: foliose
+  species:
+    hypotropum:
+      auth: (Nyl.) Hale
+    perlatum:
+      auth: (Huds.) M.Choisy
+Phaeophyscia:
+  auth: Moberg (1977)
+  form: foliose
+  species:
+    adiastola:
+      auth: (Essl.) Essl.
+    rubropulchra:
+      auth: (Degel.) Essl.
+Physcia:
+  auth: (Schreb.) Michx. (1803)
+  form: foliose
+  species:
+    adscendens:
+      auth: (Fr.) H.Olivier
+    millegrana:
+      auth: Degel.
+    stellaris:
+      auth: (L.) Nyl.
+Physciella:
+  auth: Essl. (1986)
+  form: foliose
+  species:
+    chloantha:
+      auth: (Ach.) Essl.
+Punctelia:
+  auth: Krog (1982)
+  form: foliose
+  species:
+    caseana:
+      auth: Lendemer & Hodkinson
+    rudecta:
+      auth: (Ach.) Krog
+Rinodina:
+  auth: (Ach.) Gray (1821)
+  form: crustose
+Sarcogyne:
+  auth: Flot. (1851)
+  form: crustose
+  species:
+    clavus:
+      auth: (DC.) Kremp.
+Trapelia:
+  auth: M.Choisy (1929)
+  form: crustose
+  species:
+    placodioides:
+      auth: Coppins & P.James
+Xanthoparmelia:
+  auth: (Vain.) Hale (1974)
+  form: foliose
+  species:
+    plittii:
+      auth: (Gyel.) Hale

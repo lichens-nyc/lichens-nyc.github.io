@@ -4,22 +4,23 @@ permalink: /lichens/nyc/
 layout:    page
 ---
 
-{% assign boros = site.data.locations.boros %}
-{% assign parks = site.data.locations.parks %}
+{% assign lichens = site.data.lichens         %}
+{% assign boros   = site.data.locations.boros %}
+{% assign parks   = site.data.locations.parks %}
 
 {% for genus in site.data.lichens-nyc %}
 <h2>
   <strong><cite>{{ genus.name }}</cite></strong>
-  <span style="font-size: 0.7em">{{ genus.auth | replace: ' ex ', ' <em>ex</em> ' }}</span>
+  <span style="font-size: 0.7em">{{ lichens[genus.name].auth | replace: ' ex ', ' <em>ex</em> ' }}</span>
 </h2>
 <p>
-  <strong>Form</strong>: {{ genus.form }}
+  <strong>Form</strong>: {{ lichens[genus.name].form }}
 </p>
 {% if genus.species %}
 {% for species in genus.species %}
 <h4>
   <strong><cite>{{ genus.name }} {{ species.name }}</cite></strong>
-  <span style="font-size: 0.7em">{{ species.auth }}</span>
+  <span style="font-size: 0.7em">{{ lichens[genus.name].species[species.name].auth }}</span>
 </h4>
 <p>
   {% for boro in species.loc %}

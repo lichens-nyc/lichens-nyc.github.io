@@ -50,6 +50,9 @@
       CP: [{ when: 2013, who: JA }]
 - name: Lepraria
   species:
+  - name: sp.
+    sites:
+      WC: [{ when: 2014, who: NP }]
   - name: finkii
     sites:
       CP: [{ when: 2013, who: JA }]
@@ -64,8 +67,12 @@
     sites:
       CP: [{ when: 2013, who: JA }]
       GW: [{ when: 2015, who: NP }]
+      WC: [{ when: 2014, who: NP }]
 - name: Parmotrema
   species:
+  - name: hypoleucinum
+    sites:
+      WC: [{ when: 2014, who: NP }]
   - name: hypotropum
     sites:
       CP: [{ when: 2013, who: JA }]
@@ -91,6 +98,7 @@
       GW: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
       PP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
       SP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+      WC: [{ when: 2014, who: NP }]
   - name: stellaris
     sites:
       CP: [{ when: 2013, who: JA }]
@@ -105,6 +113,9 @@
   - name: caseana
     sites:
       CP: [{ when: 2013, who: JA }]
+  - name: perreticulata
+    sites:
+      WC: [{ when: 2014, who: NP }]
   - name: rudecta
     sites:
       CP: [{ when: 2013, who: JA }]

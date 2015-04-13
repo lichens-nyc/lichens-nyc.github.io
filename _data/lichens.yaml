@@ -72,6 +72,8 @@ Parmotrema:
   date: 1860
   form: foliose
   species:
+    hypoleucinum:
+      auth: (Steiner) Hale
     hypotropum:
       auth: (Nyl.) Hale
     perlatum:
@@ -110,6 +112,8 @@ Punctelia:
   species:
     caseana:
       auth: Lendemer & Hodkinson
+    perreticulata:
+      auth: (Räsänen) G.Wilh. & Ladd
     rudecta:
       auth: (Ach.) Krog
 Rinodina:

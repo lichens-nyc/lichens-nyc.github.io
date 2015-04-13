@@ -32,7 +32,7 @@
   species:
   - name: baltimorensis
     sites:
-      CP: [{ when: 2013, who: JA }]
+      CP: [{ when: 2013, who: JA }, { when: 2014, who: DS }]
   - name: caperata
     sites:
       CP: [{ when: 2013, who: JA }, { when: 2014, who: DS }]
@@ -56,6 +56,7 @@
   species:
   - name: sp.
     sites:
+      CP: [{ when: 2014, who: DS }]
       WC: [{ when: 2014, who: NP }]
   - name: finkii
     sites:
@@ -128,7 +129,7 @@
       WC: [{ when: 2014, who: NP }]
   - name: rudecta
     sites:
-      CP: [{ when: 2013, who: JA }]
+      CP: [{ when: 2013, who: JA }, { when: 2014, who: DS }]
       GW: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
       PP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
 - name: Rinodina

@@ -1,26 +1,31 @@
 Acarospora:
-  auth: A.Massal. (1852)
+  auth: A.Massal.
+  date: 1852
   form: crustose
   species:
   - fuscata:
       auth: (Schrad.) Th.Fr.
 Caloplaca:
-  auth: Th.Fr. (1871)
+  auth: Th.Fr.
+  date: 1871
   form: crustose
   species:
     feracissima:
       auth: H.Magn.
 Candelaria:
-  auth: A.Massal. (1852)
+  auth: A.Massal.
+  date: 1852
   form: foliose
   species:
     concolor:
       auth: (Dicks.) Stein
 Cladonia:
-  auth: Hill ex P.Browne (1756)
+  auth: Hill ex P.Browne
+  date: 1756
   form: squamulose/fruticose
 Flavoparmelia:
-  auth: Hale (1986)
+  auth: Hale
+  date: 1986
   form: foliose
   species:
     baltimorensis:
@@ -28,37 +33,43 @@ Flavoparmelia:
     caperata:
       auth: (L.) Hale
 Flavopunctelia:
-  auth: (Krog) Hale (1984)
+  auth: (Krog) Hale
+  date: 1984
   form: foliose
   species:
     soredica:
       auth: (Nyl.) Hale
 Lecanora:
-  auth: Ach. (1809)
+  auth: Ach.
+  date: 1809
   form: crustose
   species:
     strobilina:
       auth: (Spreng.) Kieff.
 Lepraria:
-  auth: Ach. (1803)
+  auth: Ach.
+  date: 1803
   form: leprose
   species:
     finkii:
       auth: (B. de Lesd.) R.C.Harris
 Myelochroa:
-  auth: (Asahina) Elix & Hale (1987)
+  auth: (Asahina) Elix & Hale
+  date: 1987
   form: foliose
   species:
     aurulenta:
       auth: (Tuck.) Elix & Hale
 Parmelia:
-  auth: Ach. (1803)
+  auth: Ach.
+  date: 1803
   form: foliose
   species:
     sulcata:
       auth: Taylor
 Parmotrema:
-  auth: A.Massal. (1860)
+  auth: A.Massal.
+  date: 1860
   form: foliose
   species:
     hypotropum:
@@ -66,7 +77,8 @@ Parmotrema:
     perlatum:
       auth: (Huds.) M.Choisy
 Phaeophyscia:
-  auth: Moberg (1977)
+  auth: Moberg
+  date: 1977
   form: foliose
   species:
     adiastola:
@@ -74,7 +86,8 @@ Phaeophyscia:
     rubropulchra:
       auth: (Degel.) Essl.
 Physcia:
-  auth: (Schreb.) Michx. (1803)
+  auth: (Schreb.) Michx.
+  date: 1803
   form: foliose
   species:
     adscendens:
@@ -84,13 +97,15 @@ Physcia:
     stellaris:
       auth: (L.) Nyl.
 Physciella:
-  auth: Essl. (1986)
+  auth: Essl.
+  date: 1986
   form: foliose
   species:
     chloantha:
       auth: (Ach.) Essl.
 Punctelia:
-  auth: Krog (1982)
+  auth: Krog
+  date: 1982
   form: foliose
   species:
     caseana:
@@ -98,22 +113,26 @@ Punctelia:
     rudecta:
       auth: (Ach.) Krog
 Rinodina:
-  auth: (Ach.) Gray (1821)
+  auth: (Ach.) Gray
+  date: 1821
   form: crustose
 Sarcogyne:
-  auth: Flot. (1851)
+  auth: Flot.
+  date: 1851
   form: crustose
   species:
     clavus:
       auth: (DC.) Kremp.
 Trapelia:
-  auth: M.Choisy (1929)
+  auth: M.Choisy
+  date: 1929
   form: crustose
   species:
     placodioides:
       auth: Coppins & P.James
 Xanthoparmelia:
-  auth: (Vain.) Hale (1974)
+  auth: (Vain.) Hale
+  date: 1974
   form: foliose
   species:
     plittii:

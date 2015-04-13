@@ -41,12 +41,12 @@ layout:    page
       {% assign site_code = site[0] %}
       {% if sites[site_code].boro == boro[0] %}
         {% if site_names != '' %}
-          {% assign site_names = site_names | append: ', ' %}
+          {% assign site_names = site_names | append: ';' %}
         {% endif %}
         {% assign site_names = site_names | append: sites[site_code].name %}
       {% endif %}
     {% endfor %}
-    {{ site_names }}<br />
+    {{ site_names | split: ';' | sort | join: ', ' }}<br />
   {% endif %}
 {% endfor %}
 </p>

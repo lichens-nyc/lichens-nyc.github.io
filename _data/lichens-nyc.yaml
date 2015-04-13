@@ -23,7 +23,7 @@
       WC: [{ when: 2014, who: NP }]
 - name: Cladonia
   species:
-  - name: spp.
+  - name: sp.
     sites:
       CP: [{ when: 2013, who: JA }]
       IH: [{ when: 2015, who: NY }]
@@ -56,7 +56,7 @@
   species:
   - name: sp.
     sites:
-      CP: [{ when: 2014, who: DS }]
+      #CP: [{ when: 2014, who: DS }]
       WC: [{ when: 2014, who: NP }]
   - name: finkii
     sites:

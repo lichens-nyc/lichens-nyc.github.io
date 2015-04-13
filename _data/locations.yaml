@@ -13,4 +13,5 @@ sites:
   NY: { name: New York Botanical Garden, boro: BX }
   PP: { name: Prospect Park,             boro: BK }
   SP: { name: Sunset Park,               boro: BK }
+  VC: { name: Van Cortlandt Park,        boro: BX }
   WC: { name: Woodlawn Cemetery,         boro: BX }

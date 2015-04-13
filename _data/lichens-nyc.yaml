@@ -5,6 +5,9 @@
       CP: [{ when: 2013, who: JA }]
 - name: Caloplaca
   species:
+  - name: sp.
+    sites:
+      VC: [{ when: 2014, who: NY }]
   - name: feracissima
     sites:
       CP: [{ when: 2013, who: JA }]
@@ -23,7 +26,7 @@
   - name: spp.
     sites:
       CP: [{ when: 2013, who: JA }]
-      IH: [{ when: 2015, who: NP }]
+      IH: [{ when: 2015, who: NY }]
       WC: [{ when: 2014, who: NP }]
 - name: Flavoparmelia
   species:
@@ -37,6 +40,7 @@
       NY: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
       PP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
       SP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+      VC: [{ when: 2014, who: NY }]
       WC: [{ when: 2014, who: NP }]
 - name: Flavopunctelia
   species:
@@ -63,6 +67,9 @@
       CP: [{ when: 2013, who: JA }]
 - name: Parmelia
   species:
+  - name: sp.
+    sites:
+      VC: [{ when: 2014, who: NY }]
   - name: sulcata
     sites:
       CP: [{ when: 2013, who: JA }]
@@ -89,6 +96,9 @@
       CP: [{ when: 2013, who: JA }]
 - name: Physcia
   species:
+  - name: sp.
+    sites:
+      VC: [{ when: 2014, who: NY }]
   - name: adscendens
     sites:
       GW: [{ when: 2015, who: NP }]

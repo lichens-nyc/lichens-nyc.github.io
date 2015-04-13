@@ -6,7 +6,7 @@ layout:    page
 
 {% assign lichens = site.data.lichens         %}
 {% assign boros   = site.data.locations.boros %}
-{% assign parks   = site.data.locations.parks %}
+{% assign sites   = site.data.locations.sites %}
 
 {% for genus in site.data.lichens-nyc %}
 <h2>
@@ -25,21 +25,30 @@ layout:    page
   <span style="font-size: 0.7em">{{ lichens[genus.name].species[species.name].auth }}</span>
 {% endif %}
 </h4>
-<ul>
-  <li><strong>When</strong>: {{ species.when[0] }}{% if species.when[1] %}–{{ species.when[-1] }}{% endif %}</li>
-  <li><strong>Where</strong>:
-    <ul>
-    {% for boro in species.where %}
-    {% assign boro_key = boro[0] %}
-      <li>
-        <strong>{{ boros[boro_key] }}</strong>:
-        {% for park in boro[1] %}
-        {{ parks[park].name }}{% unless forloop.last %}, {% endunless %}
-        {% endfor %}
-      </li>
+<p>
+{% for boro in boros %}
+  {% assign use_boro = false %}
+  {% for site in species.sites %}
+    {% assign site_code = site[0] %}
+    {% if sites[site_code].boro == boro[0] %}
+      {% assign use_boro = true %}
+    {% endif %}
+  {% endfor %}
+  {% if use_boro %}
+    <strong>{{ boro[1] }}</strong>:
+    {% assign site_names = '' %}
+    {% for site in species.sites %}
+      {% assign site_code = site[0] %}
+      {% if sites[site_code].boro == boro[0] %}
+        {% if site_names != '' %}
+          {% assign site_names = site_names | append: ', ' %}
+        {% endif %}
+        {% assign site_names = site_names | append: sites[site_code].name %}
+      {% endif %}
     {% endfor %}
-    </ul>
-  </li>
-</ul>
+    {{ site_names }}<br />
+  {% endif %}
+{% endfor %}
+</p>
 {% endfor %}
 {% endfor %}

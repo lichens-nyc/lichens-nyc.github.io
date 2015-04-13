@@ -1,113 +1,132 @@
 - name: Acarospora
   species:
   - name: fuscata
-    when: [2013]
-    where: { MA: [CP] }
+    sites:
+      CP: [{ when: 2013, who: JA }]
 - name: Caloplaca
   species:
   - name: feracissima
-    when: [2013]
-    where: { MA: [CP] }
+    sites:
+      CP: [{ when: 2013, who: JA }]
 - name: Candelaria
   species:
   - name: concolor
-    when: [2013, 2014, 2015]
-    where: { BX: [NY, WC], BK: [GW, PP, SP], MA: [CP] }
+    sites:
+      CP: [{ when: 2013, who: JA }, { when: 2014, who: DS }]
+      GW: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+      NY: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+      PP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+      SP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+      WC: [{ when: 2014, who: NP }]
 - name: Cladonia
   species:
   - name: spp.
-    when: [2013, 2014, 2015]
-    where: { BX: [WC], BK: [GW], MA: [CP, IH] }
+    sites:
+      CP: [{ when: 2013, who: JA }]
+      IH: [{ when: 2015, who: NP }]
+      WC: [{ when: 2014, who: NP }]
 - name: Flavoparmelia
   species:
   - name: baltimorensis
-    when: [2013]
-    where: { MA: [CP] }
+    sites:
+      CP: [{ when: 2013, who: JA }]
   - name: caperata
-    when: [2013, 2014, 2015]
-    where: { BX: [NY, WC], BK: [GW, PP, SP], MA: [CP] }
+    sites:
+      CP: [{ when: 2013, who: JA }, { when: 2014, who: DS }]
+      GW: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+      NY: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+      PP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+      SP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+      WC: [{ when: 2014, who: NP }]
 - name: Flavopunctelia
   species:
   - name: soredica
-    when: [2013]
-    where: { MA: [CP] }
+    sites:
+      CP: [{ when: 2013, who: JA }]
 - name: Lecanora
   species:
   - name: strobilina
-    when: [2013]
-    where: { MA: [CP] }
+    sites:
+      CP: [{ when: 2013, who: JA }]
 - name: Lepraria
   species:
   - name: finkii
-    when: [2013]
-    where: { MA: [CP] }
+    sites:
+      CP: [{ when: 2013, who: JA }]
 - name: Myelochroa
   species:
   - name: aurulenta
-    when: [2013]
-    where: { MA: [CP] }
+    sites:
+      CP: [{ when: 2013, who: JA }]
 - name: Parmelia
   species:
   - name: sulcata
-    when: [2013, 2015]
-    where: { BK: [GW], MA: [CP] }
+    sites:
+      CP: [{ when: 2013, who: JA }]
+      GW: [{ when: 2015, who: NP }]
 - name: Parmotrema
   species:
   - name: hypotropum
-    when: [2013]
-    where: { MA: [CP] }
+    sites:
+      CP: [{ when: 2013, who: JA }]
   - name: perlatum
-    when: [2015]
-    where: { BK: [GW] }
+    sites:
+      GW: [{ when: 2015, who: NP }]
 - name: Phaeophyscia
   species:
   - name: adiastola
-    when: [2013]
-    where: { MA: [CP] }
+    sites:
+      CP: [{ when: 2013, who: JA }]
   - name: rubropulchra
-    when: [2013]
-    where: { MA: [CP] }
+    sites:
+      CP: [{ when: 2013, who: JA }]
 - name: Physcia
   species:
   - name: adscendens
-    when: [2015]
-    where: { BK: [GW] }
+    sites:
+      GW: [{ when: 2015, who: NP }]
   - name: millegrana
-    when: [2013, 2014, 2015]
-    where: { BK: [GW, PP, SP], MA: [CP] }
+    sites:
+      CP: [{ when: 2013, who: JA }, { when: 2014, who: DS }]
+      GW: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+      PP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+      SP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
   - name: stellaris
-    when: [2013, 2015]
-    where: { BK: [GW], MA: [CP] }
+    sites:
+      CP: [{ when: 2013, who: JA }]
+      GW: [{ when: 2015, who: NP }]
 - name: Physciella
   species:
   - name: chloantha
-    when: [2013]
-    where: { MA: [CP] }
+    sites:
+      CP: [{ when: 2013, who: JA }]
 - name: Punctelia
   species:
   - name: caseana
-    when: [2013]
-    where: { MA: [CP] }
+    sites:
+      CP: [{ when: 2013, who: JA }]
   - name: rudecta
-    when: [2013, 2014, 2015]
-    where: { BK: [GW, PP], MA: [CP] }
+    sites:
+      CP: [{ when: 2013, who: JA }]
+      GW: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+      PP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
 - name: Rinodina
   species:
   - name: sp.
-    when: [2015]
-    where: { BK: [GW] }
+    sites:
+      GW: [{ when: 2015, who: NP }]
 - name: Sarcogyne
   species:
   - name: clavus
-    when: [2013]
-    where: { MA: [CP] }
+    sites:
+      CP: [{ when: 2013, who: JA }]
 - name: Trapelia
   species:
   - name: placodioides
-    when: [2013]
-    where: { MA: [CP] }
+    sites:
+      CP: [{ when: 2013, who: JA }]
 - name: Xanthoparmelia
   species:
   - name: plittii
-    when: [2013]
-    where: { MA: [CP] }
+    sites:
+      CP: [{ when: 2013, who: JA }]

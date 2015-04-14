@@ -5,14 +5,14 @@
       CP: [{ when: 2013, who: JA }]
 - name: Caloplaca
   species:
-  - name: sp.
-    sites:
-      VC: [{ when: 2014, who: NY }]
   - name: feracissima
     sites:
       CP: [{ when: 2013, who: JA }]
       JE: [{ when: 1994, who: TD }]
       QV: [{ when: 1994, who: TD }]
+  - name: sp.
+    sites:
+      VC: [{ when: 2014, who: NY }]
 - name: Candelaria
   species:
   - name: concolor
@@ -41,14 +41,6 @@
       QV: [{ when: 1994, who: TD }]
 - name: Cladonia
   species:
-  - name: sp.
-    sites:
-      BS: [{ when: 1994, who: TD }]
-      #BT: [{ when: 1994, who: TD }]
-      CP: [{ when: 2013, who: JA }]
-      IH: [{ when: 2015, who: NY }]
-      RW: [{ when: 1994, who: TD }]
-      WC: [{ when: 2014, who: NP }]
   - name: apodocarpa
     sites:
       BT: [{ when: 1994, who: TD }]
@@ -79,6 +71,14 @@
     cf: true
     sites:
       BT: [{ when: 1994, who: TD }]
+  - name: sp.
+    sites:
+      BS: [{ when: 1994, who: TD }]
+      #BT: [{ when: 1994, who: TD }]
+      CP: [{ when: 2013, who: JA }]
+      IH: [{ when: 2015, who: NY }]
+      RW: [{ when: 1994, who: TD }]
+      WC: [{ when: 2014, who: NP }]
 - name: Flavoparmelia
   species:
   - name: baltimorensis
@@ -105,13 +105,13 @@
       CP: [{ when: 2013, who: JA }]
 - name: Lepraria
   species:
+  - name: finkii
+    sites:
+      CP: [{ when: 2013, who: JA }]
   - name: sp.
     sites:
       #CP: [{ when: 2014, who: DS }]
       WC: [{ when: 2014, who: NP }]
-  - name: finkii
-    sites:
-      CP: [{ when: 2013, who: JA }]
 - name: Myelochroa
   species:
   - name: aurulenta
@@ -119,14 +119,14 @@
       CP: [{ when: 2013, who: JA }]
 - name: Parmelia
   species:
-  - name: sp.
-    sites:
-      VC: [{ when: 2014, who: NY }]
   - name: sulcata
     sites:
       CP: [{ when: 2013, who: JA }]
       GW: [{ when: 2015, who: NP }]
       WC: [{ when: 2014, who: NP }]
+  - name: sp.
+    sites:
+      VC: [{ when: 2014, who: NY }]
 - name: Parmotrema
   species:
   - name: hypoleucinum
@@ -148,9 +148,6 @@
       CP: [{ when: 2013, who: JA }]
 - name: Physcia
   species:
-  - name: sp.
-    sites:
-      VC: [{ when: 2014, who: NY }]
   - name: adscendens
     sites:
       GW: [{ when: 2015, who: NP }]
@@ -165,6 +162,9 @@
     sites:
       CP: [{ when: 2013, who: JA }]
       GW: [{ when: 2015, who: NP }]
+  - name: sp.
+    sites:
+      VC: [{ when: 2014, who: NY }]
 - name: Physciella
   species:
   - name: chloantha

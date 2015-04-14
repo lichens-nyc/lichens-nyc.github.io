@@ -43,8 +43,11 @@
   species:
   - name: sp.
     sites:
+      BS: [{ when: 1994, who: TD }]
+      #BT: [{ when: 1994, who: TD }]
       CP: [{ when: 2013, who: JA }]
       IH: [{ when: 2015, who: NY }]
+      RW: [{ when: 1994, who: TD }]
       WC: [{ when: 2014, who: NP }]
   - name: apodocarpa
     sites:
@@ -63,6 +66,19 @@
     sites:
       BT: [{ when: 1994, who: TD }]
       LN: [{ when: 1994, who: TD }]
+  - name: polycarpoides
+    sites:
+      RR: [{ when: 1994, who: TD }]
+  - name: ramulosa
+    sites:
+      LN: [{ when: 1994, who: TD }]
+  - name: rei
+    sites:
+      BT: [{ when: 1994, who: TD }]
+  - name: subcariosa
+    cf: true
+    sites:
+      BT: [{ when: 1994, who: TD }]
 - name: Flavoparmelia
   species:
   - name: baltimorensis

@@ -6,12 +6,20 @@ boros:
   SI: Staten Island
 
 sites:
+  BT: { name: Bush Terminal,             boro: BK }
   CP: { name: Central Park,              boro: MA }
+  DT: { name: Douglaston,                boro: QU }
   GW: { name: Green-Wood Cemetery,       boro: BK }
   HT: { name: Heffernan Triangle,        boro: BK }
   IH: { name: Inwood Hill Park,          boro: MA }
+  JE: { name: Jamaica Estates,           boro: QU }
+  LN: { name: Little Neck,               boro: QU }
+  MB: { name: Manhattan Beach,           boro: BK }
   NY: { name: New York Botanical Garden, boro: BX }
   PP: { name: Prospect Park,             boro: BK }
+  QV: { name: Queens Village,            boro: QU }
+  RP: { name: Rego Park,                 boro: QU }
   SP: { name: Sunset Park,               boro: BK }
   VC: { name: Van Cortlandt Park,        boro: BX }
   WC: { name: Woodlawn Cemetery,         boro: BX }
+  WS: { name: Whitestone,                boro: QU }

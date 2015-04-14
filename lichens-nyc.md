@@ -21,8 +21,8 @@ layout:    page
 {% if species.name == 'sp.' or species.name == 'spp.' %}
   <strong><cite>{{ genus.name }}</cite> {{ species.name }}</strong>
 {% else %}
-  <strong><cite>{{ genus.name }} {{ species.name }}</cite></strong>
-  <span style="font-size: 0.7em">{{ lichens[genus.name].species[species.name].auth }}</span>
+  <strong><cite>{{ genus.name }}{% if species.cf %}</cite> cf. <cite>{% else %} {% endif %}{{ species.name | replace: ' var. ', '</cite> var. <cite>' | replace: ' f. ', '</cite> f. <cite>' }}</cite></strong>
+  <span style="font-size: 0.7em">{{ lichens[genus.name].species[species.name].auth | replace: ' ex ', ' <em>ex</em> ' }}</span>
 {% endif %}
 </h4>
 <p>

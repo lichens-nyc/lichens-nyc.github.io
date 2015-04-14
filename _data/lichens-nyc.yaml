@@ -11,16 +11,34 @@
   - name: feracissima
     sites:
       CP: [{ when: 2013, who: JA }]
+      JE: [{ when: 1994, who: TD }]
+      QV: [{ when: 1994, who: TD }]
 - name: Candelaria
   species:
   - name: concolor
     sites:
+      BT: [{ when: 1994, who: TD }]
       CP: [{ when: 2013, who: JA }, { when: 2014, who: DS }]
       GW: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+      JE: [{ when: 1994, who: TD }]
       NY: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
       PP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+      QV: [{ when: 1994, who: TD }]
       SP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
       WC: [{ when: 2014, who: NP }]
+  - name: concolor var. effusa
+    sites:
+      MB: [{ when: 1994, who: TD }]
+      RP: [{ when: 1994, who: TD }]
+      WS: [{ when: 1994, who: TD }]
+- name: Chrysothrix
+  species:
+  - name: caesia
+    cf: true
+    sites:
+      JE: [{ when: 1994, who: TD }]
+      MB: [{ when: 1994, who: TD }]
+      QV: [{ when: 1994, who: TD }]
 - name: Cladonia
   species:
   - name: sp.
@@ -28,6 +46,23 @@
       CP: [{ when: 2013, who: JA }]
       IH: [{ when: 2015, who: NY }]
       WC: [{ when: 2014, who: NP }]
+  - name: apodocarpa
+    sites:
+      BT: [{ when: 1994, who: TD }]
+  - name: chlorophaea
+    sites:
+      BT: [{ when: 1994, who: TD }]
+      DT: [{ when: 1988, who: TD }]
+  - name: conista
+    sites:
+      GW: [{ when: 1994, who: TD }]
+  - name: cristatella
+    sites:
+      BT: [{ when: 1994, who: TD }]
+  - name: cristatella f. squamosissima
+    sites:
+      BT: [{ when: 1994, who: TD }]
+      LN: [{ when: 1994, who: TD }]
 - name: Flavoparmelia
   species:
   - name: baltimorensis

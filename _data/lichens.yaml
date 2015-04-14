@@ -19,10 +19,30 @@ Candelaria:
   species:
     concolor:
       auth: (Dicks.) Stein
+    concolor var. effusa:
+      auth: (Tuck.) G.Merr. & Burnham
+Chrysothrix:
+  auth: Mont.
+  date: 1852
+  form: crustose
+  species:
+    caesia:
+      auth: (Flot.) Ertz & Tehler
 Cladonia:
   auth: Hill ex P.Browne
   date: 1756
   form: squamulose/fruticose
+  species:
+    apodocarpa:
+      auth: Robbins
+    chlorophaea:
+      auth: (Flörke ex Sommerf.) Spreng.
+    conista:
+      auth: (Nyl.) Robbins
+    cristatella:
+      auth: Tuck.
+    cristatella f. squamosissima:
+      auth: Robbins
 Flavoparmelia:
   auth: Hale
   date: 1986

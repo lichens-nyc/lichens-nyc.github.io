@@ -9,44 +9,41 @@ layout:    page
 {% assign sites   = site.data.locations.sites %}
 
 {% for genus in site.data.lichens-nyc %}
+{% assign genus_name = genus[0] %}
 <h2>
-  <strong><cite>{{ genus.name }}</cite></strong>
-  <span style="font-size: 0.7em">{{ lichens[genus.name].auth | replace: ' ex ', ' <em>ex</em> ' }}</span>
+  <strong><cite>{{ genus_name }}</cite></strong>
+  <span style="font-size: 0.7em">{{ lichens[genus_name].auth | replace: ' ex ', ' <em>ex</em> ' }}</span>
 </h2>
 <p>
-  <strong>Form</strong>: {{ lichens[genus.name].form }}
+  <strong>Form</strong>: {{ lichens[genus_name].form }}
 </p>
-{% for species in genus.species %}
+{% for species in genus[1] %}
+{% assign species_name = species[0] %}
 <h4>
-{% if species.name == 'sp.' or species.name == 'spp.' %}
-  <strong><cite>{{ genus.name }}</cite> {{ species.name }}</strong>
+{% if species_name == 'sp.' %}
+  <strong><cite>{{ genus_name }}</cite> {{ species_name }}</strong>
 {% else %}
-  <strong><cite>{{ genus.name }}{% if species.cf %}</cite> cf. <cite>{% else %} {% endif %}{{ species.name | replace: ' var. ', '</cite> var. <cite>' | replace: ' f. ', '</cite> f. <cite>' }}</cite></strong>
-  <span style="font-size: 0.7em">{{ lichens[genus.name].species[species.name].auth | replace: ' ex ', ' <em>ex</em> ' }}</span>
+  <strong><cite>{{ genus_name | append: ' ' | append: species_name | replace: ' cf. ', '</cite> cf. <cite>' | replace: ' var. ', '</cite> var. <cite>' | replace: ' f. ', '</cite> f. <cite>' }}</cite></strong>
+  <span style="font-size: 0.7em">{{ lichens[genus_name].species[species_name].auth | replace: ' ex ', ' <em>ex</em> ' }}</span>
 {% endif %}
 </h4>
 <p>
 {% for boro in boros %}
   {% assign use_boro = false %}
-  {% for site in species.sites %}
+  {% assign site_names = '' %}
+  {% for site in species[1] %}
     {% assign site_code = site[0] %}
     {% if sites[site_code].boro == boro[0] %}
       {% assign use_boro = true %}
+      {% if site_names != '' %}
+        {% assign site_names = site_names | append: '␞' %}
+      {% endif %}
+      {% assign site_names = site_names | append: sites[site_code].name %}
     {% endif %}
   {% endfor %}
   {% if use_boro %}
     <strong>{{ boro[1] }}</strong>:
-    {% assign site_names = '' %}
-    {% for site in species.sites %}
-      {% assign site_code = site[0] %}
-      {% if sites[site_code].boro == boro[0] %}
-        {% if site_names != '' %}
-          {% assign site_names = site_names | append: ';' %}
-        {% endif %}
-        {% assign site_names = site_names | append: sites[site_code].name %}
-      {% endif %}
-    {% endfor %}
-    {{ site_names | split: ';' | sort | join: ', ' }}<br />
+    {{ site_names | split: '␞' | sort | join: ', ' }}<br />
   {% endif %}
 {% endfor %}
 </p>

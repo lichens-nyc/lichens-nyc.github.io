@@ -1,205 +1,141 @@
-- name: Acarospora
-  species:
-  - name: fuscata
-    sites:
-      CP: [{ when: 2013, who: JA }]
-- name: Caloplaca
-  species:
-  - name: feracissima
-    sites:
-      CP: [{ when: 2013, who: JA }]
-      JE: [{ when: 1994, who: TD }]
-      QV: [{ when: 1994, who: TD }]
-  - name: sp.
-    sites:
-      VC: [{ when: 2014, who: NY }]
-- name: Candelaria
-  species:
-  - name: concolor
-    sites:
-      BT: [{ when: 1994, who: TD }]
-      CP: [{ when: 2013, who: JA }, { when: 2014, who: DS }]
-      GW: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
-      JE: [{ when: 1994, who: TD }]
-      NY: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
-      PP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
-      QV: [{ when: 1994, who: TD }]
-      SP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
-      WC: [{ when: 2014, who: NP }]
-  - name: concolor var. effusa
-    sites:
-      MB: [{ when: 1994, who: TD }]
-      RP: [{ when: 1994, who: TD }]
-      WS: [{ when: 1994, who: TD }]
-- name: Chrysothrix
-  species:
-  - name: caesia
-    cf: true
-    sites:
-      JE: [{ when: 1994, who: TD }]
-      MB: [{ when: 1994, who: TD }]
-      QV: [{ when: 1994, who: TD }]
-- name: Cladonia
-  species:
-  - name: apodocarpa
-    sites:
-      BT: [{ when: 1994, who: TD }]
-  - name: chlorophaea
-    sites:
-      BT: [{ when: 1994, who: TD }]
-      DT: [{ when: 1988, who: TD }]
-  - name: conista
-    sites:
-      GW: [{ when: 1994, who: TD }]
-  - name: cristatella
-    sites:
-      BT: [{ when: 1994, who: TD }]
-  - name: cristatella f. squamosissima
-    sites:
-      BT: [{ when: 1994, who: TD }]
-      LN: [{ when: 1994, who: TD }]
-  - name: polycarpoides
-    sites:
-      RR: [{ when: 1994, who: TD }]
-  - name: ramulosa
-    sites:
-      LN: [{ when: 1994, who: TD }]
-  - name: rei
-    sites:
-      BT: [{ when: 1994, who: TD }]
-  - name: subcariosa
-    cf: true
-    sites:
-      BT: [{ when: 1994, who: TD }]
-  - name: sp.
-    sites:
-      BS: [{ when: 1994, who: TD }]
-      #BT: [{ when: 1994, who: TD }]
-      CP: [{ when: 2013, who: JA }]
-      IH: [{ when: 2015, who: NY }]
-      RW: [{ when: 1994, who: TD }]
-      WC: [{ when: 2014, who: NP }]
-- name: Flavoparmelia
-  species:
-  - name: baltimorensis
-    sites:
-      CP: [{ when: 2013, who: JA }, { when: 2014, who: DS }]
-  - name: caperata
-    sites:
-      CP: [{ when: 2013, who: JA }, { when: 2014, who: DS }]
-      GW: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
-      NY: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
-      PP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
-      SP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
-      VC: [{ when: 2014, who: NY }]
-      WC: [{ when: 2014, who: NP }]
-- name: Flavopunctelia
-  species:
-  - name: soredica
-    sites:
-      CP: [{ when: 2013, who: JA }]
-- name: Lecanora
-  species:
-  - name: strobilina
-    sites:
-      CP: [{ when: 2013, who: JA }]
-- name: Lepraria
-  species:
-  - name: finkii
-    sites:
-      CP: [{ when: 2013, who: JA }]
-  - name: sp.
-    sites:
-      #CP: [{ when: 2014, who: DS }]
-      WC: [{ when: 2014, who: NP }]
-- name: Myelochroa
-  species:
-  - name: aurulenta
-    sites:
-      CP: [{ when: 2013, who: JA }]
-- name: Parmelia
-  species:
-  - name: sulcata
-    sites:
-      CP: [{ when: 2013, who: JA }]
-      GW: [{ when: 2015, who: NP }]
-      WC: [{ when: 2014, who: NP }]
-  - name: sp.
-    sites:
-      VC: [{ when: 2014, who: NY }]
-- name: Parmotrema
-  species:
-  - name: hypoleucinum
-    sites:
-      WC: [{ when: 2014, who: NP }]
-  - name: hypotropum
-    sites:
-      CP: [{ when: 2013, who: JA }]
-  - name: perlatum
-    sites:
-      GW: [{ when: 2015, who: NP }]
-- name: Phaeophyscia
-  species:
-  - name: adiastola
-    sites:
-      CP: [{ when: 2013, who: JA }]
-  - name: rubropulchra
-    sites:
-      CP: [{ when: 2013, who: JA }]
-- name: Physcia
-  species:
-  - name: adscendens
-    sites:
-      GW: [{ when: 2015, who: NP }]
-  - name: millegrana
-    sites:
-      CP: [{ when: 2013, who: JA }, { when: 2014, who: DS }]
-      GW: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
-      PP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
-      SP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
-      WC: [{ when: 2014, who: NP }]
-  - name: stellaris
-    sites:
-      CP: [{ when: 2013, who: JA }]
-      GW: [{ when: 2015, who: NP }]
-  - name: sp.
-    sites:
-      VC: [{ when: 2014, who: NY }]
-- name: Physciella
-  species:
-  - name: chloantha
-    sites:
-      CP: [{ when: 2013, who: JA }]
-- name: Punctelia
-  species:
-  - name: caseana
-    sites:
-      CP: [{ when: 2013, who: JA }]
-  - name: perreticulata
-    sites:
-      WC: [{ when: 2014, who: NP }]
-  - name: rudecta
-    sites:
-      CP: [{ when: 2013, who: JA }, { when: 2014, who: DS }]
-      GW: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
-      PP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
-- name: Rinodina
-  species:
-  - name: sp.
-    sites:
-      GW: [{ when: 2015, who: NP }]
-- name: Sarcogyne
-  species:
-  - name: clavus
-    sites:
-      CP: [{ when: 2013, who: JA }]
-- name: Trapelia
-  species:
-  - name: placodioides
-    sites:
-      CP: [{ when: 2013, who: JA }]
-- name: Xanthoparmelia
-  species:
-  - name: plittii
-    sites:
-      CP: [{ when: 2013, who: JA }]
+Acarospora:
+  fuscata:
+    CP: [{ when: 2013, who: JA }]
+Caloplaca:
+  feracissima:
+    CP: [{ when: 2013, who: JA }]
+    JE: [{ when: 1994, who: TD }]
+    QV: [{ when: 1994, who: TD }]
+  sp.:
+    VC: [{ when: 2014, who: NY }]
+Candelaria:
+  concolor:
+    BT: [{ when: 1994, who: TD }]
+    CP: [{ when: 2013, who: JA }, { when: 2014, who: DS }]
+    GW: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+    JE: [{ when: 1994, who: TD }]
+    NY: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+    PP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+    QV: [{ when: 1994, who: TD }]
+    SP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+    WC: [{ when: 2014, who: NP }]
+  concolor var. effusa:
+    MB: [{ when: 1994, who: TD }]
+    RP: [{ when: 1994, who: TD }]
+    WS: [{ when: 1994, who: TD }]
+Chrysothrix:
+  cf. caesia:
+    JE: [{ when: 1994, who: TD }]
+    MB: [{ when: 1994, who: TD }]
+    QV: [{ when: 1994, who: TD }]
+Cladonia:
+  apodocarpa:
+    BT: [{ when: 1994, who: TD }]
+  chlorophaea:
+    BT: [{ when: 1994, who: TD }]
+    DT: [{ when: 1988, who: TD }]
+  conista:
+    GW: [{ when: 1994, who: TD }]
+  cristatella:
+    BT: [{ when: 1994, who: TD }]
+  cristatella f. squamosissima:
+    BT: [{ when: 1994, who: TD }]
+    LN: [{ when: 1994, who: TD }]
+  polycarpoides:
+    RR: [{ when: 1994, who: TD }]
+  ramulosa:
+    LN: [{ when: 1994, who: TD }]
+  rei:
+    BT: [{ when: 1994, who: TD }]
+  cf. subcariosa:
+    BT: [{ when: 1994, who: TD }]
+  sp.:
+    BS: [{ when: 1994, who: TD }]
+    #BT: [{ when: 1994, who: TD }]
+    CP: [{ when: 2013, who: JA }]
+    IH: [{ when: 2015, who: NY }]
+    RW: [{ when: 1994, who: TD }]
+    WC: [{ when: 2014, who: NP }]
+Flavoparmelia:
+  baltimorensis:
+    CP: [{ when: 2013, who: JA }, { when: 2014, who: DS }]
+  caperata:
+    CP: [{ when: 2013, who: JA }, { when: 2014, who: DS }]
+    GW: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+    NY: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+    PP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+    SP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+    VC: [{ when: 2014, who: NY }]
+    WC: [{ when: 2014, who: NP }]
+Flavopunctelia:
+  soredica:
+    CP: [{ when: 2013, who: JA }]
+Lecanora:
+  strobilina:
+    CP: [{ when: 2013, who: JA }]
+Lepraria:
+  finkii:
+    CP: [{ when: 2013, who: JA }]
+  sp.:
+    #CP: [{ when: 2014, who: DS }]
+    WC: [{ when: 2014, who: NP }]
+Myelochroa:
+  aurulenta:
+    CP: [{ when: 2013, who: JA }]
+Parmelia:
+  sulcata:
+    CP: [{ when: 2013, who: JA }]
+    GW: [{ when: 2015, who: NP }]
+    WC: [{ when: 2014, who: NP }]
+  sp.:
+    VC: [{ when: 2014, who: NY }]
+Parmotrema:
+  hypoleucinum:
+    WC: [{ when: 2014, who: NP }]
+  hypotropum:
+    CP: [{ when: 2013, who: JA }]
+  perlatum:
+    GW: [{ when: 2015, who: NP }]
+Phaeophyscia:
+  adiastola:
+    CP: [{ when: 2013, who: JA }]
+  rubropulchra:
+    CP: [{ when: 2013, who: JA }]
+Physcia:
+  adscendens:
+    GW: [{ when: 2015, who: NP }]
+  millegrana:
+    CP: [{ when: 2013, who: JA }, { when: 2014, who: DS }]
+    GW: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+    PP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+    SP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+    WC: [{ when: 2014, who: NP }]
+  stellaris:
+    CP: [{ when: 2013, who: JA }]
+    GW: [{ when: 2015, who: NP }]
+  sp.:
+    VC: [{ when: 2014, who: NY }]
+Physciella:
+  chloantha:
+    CP: [{ when: 2013, who: JA }]
+Punctelia:
+  caseana:
+    CP: [{ when: 2013, who: JA }]
+  perreticulata:
+    WC: [{ when: 2014, who: NP }]
+  rudecta:
+    CP: [{ when: 2013, who: JA }, { when: 2014, who: DS }]
+    GW: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+    PP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+Rinodina:
+  sp.:
+    GW: [{ when: 2015, who: NP }]
+Sarcogyne:
+  clavus:
+    CP: [{ when: 2013, who: JA }]
+Trapelia:
+  placodioides:
+    CP: [{ when: 2013, who: JA }]
+Xanthoparmelia:
+  plittii:
+    CP: [{ when: 2013, who: JA }]

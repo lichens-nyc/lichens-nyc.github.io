@@ -38,7 +38,8 @@ layout:    page
       {% if site_names != '' %}
         {% assign site_names = site_names | append: '␞' %}
       {% endif %}
-      {% assign site_names = site_names | append: sites[site_code].name %}
+      {% assign years = site[1] | sort: 'when' | map: 'when' %}
+      {% assign site_names = site_names | append: sites[site_code].name | append: '<sup style="font-size: 0.7em; color: grey">' | append: years[-1] | append: '</sup>' %}
     {% endif %}
   {% endfor %}
   {% if use_boro %}

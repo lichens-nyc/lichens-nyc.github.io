@@ -1,21 +1,21 @@
-{% assign lichens = site.data.lichens %}
-{% assign lichens_nyc = site.data.lichens-nyc %}
+{% assign taxa = site.data.taxa %}
 {% assign boros = site.data.locations.boros %}
 {% assign sites = site.data.locations.sites %}
+{% assign observations = site.data.observations %}
 
 <p>
-<a href="/lichens/nyc/" title="Lichens of New York City">NYC</a>:
+<a href="/" title="Lichens of New York City">NYC</a>:
 {% for boro in boros %}
-<a href="/lichens/nyc/{{ boro[1] | slugify }}" title="Lichens of {{ boro[1] }}">{{ boro[1] }}</a>
+<a href="/{{ boro[1] | slugify }}/" title="Lichens of {{ boro[1] }}">{{ boro[1] }}</a>
 {% unless forloop.last %}|{% endunless %}
 {% endfor %}
 </p>
 
 {% assign genera = '' %}
-{% for genus in lichens_nyc %}
+{% for genus in observations %}
   {% assign genus_name = genus[0] %}
   {% assign species_names = '' %}
-  {% for species in lichens_nyc[genus_name] %}
+  {% for species in observations[genus_name] %}
     {% assign use_species = false %}
     {% if include.boro == nil %}
       {% assign use_species = true %}
@@ -47,10 +47,10 @@
 {% assign genus_name = genus[0] %}
 <h2>
   <strong><cite>{{ genus_name }}</cite></strong>
-  <span style="font-size: 0.7em">{{ lichens[genus_name].auth | replace: ' ex ', ' <em>ex</em> ' }}</span>
+  <span style="font-size: 0.7em">{{ taxa[genus_name].auth | replace: ' ex ', ' <em>ex</em> ' }}</span>
 </h2>
 <p>
-  <strong>Form</strong>: {{ lichens[genus_name].form }}
+  <strong>Form</strong>: {{ taxa[genus_name].form }}
 </p>
 {% assign species_names = genus[1] | split: '🍄' %}
 {% for species_name in species_names %}
@@ -60,7 +60,7 @@
 {% else %}
   <strong><cite>{{ genus_name | append: ' ' | append: species_name | replace: ' cf. ', '</cite> cf. <cite>' | replace: ' var. ', '</cite> var. <cite>' | replace: ' f. ', '</cite> f. <cite>' }}</cite></strong>
   {% assign = species_key = species_name | replace: 'cf. ', '' %}
-  <span style="font-size: 0.7em">{{ lichens[genus_name].species[species_key].auth | replace: ' ex ', ' <em>ex</em> ' }}</span>
+  <span style="font-size: 0.7em">{{ taxa[genus_name].species[species_key].auth | replace: ' ex ', ' <em>ex</em> ' }}</span>
 {% endif %}
 </h4>
 <ul>
@@ -70,7 +70,7 @@
   {% endif %}
   {% assign use_boro = false %}
   {% assign site_names = '' %}
-  {% for site in lichens_nyc[genus_name][species_name] %}
+  {% for site in observations[genus_name][species_name] %}
     {% assign site_code = site[0] %}
     {% if sites[site_code].boro == boro[0] %}
       {% assign use_boro = true %}

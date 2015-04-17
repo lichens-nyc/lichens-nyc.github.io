@@ -59,7 +59,8 @@
   <strong><cite>{{ genus_name }}</cite> {{ species_name }}</strong>
 {% else %}
   <strong><cite>{{ genus_name | append: ' ' | append: species_name | replace: ' cf. ', '</cite> cf. <cite>' | replace: ' var. ', '</cite> var. <cite>' | replace: ' f. ', '</cite> f. <cite>' }}</cite></strong>
-  <span style="font-size: 0.7em">{{ lichens[genus_name].species[species_name].auth | replace: ' ex ', ' <em>ex</em> ' }}</span>
+  {% assign = species_key = species_name | replace: 'cf. ', '' %}
+  <span style="font-size: 0.7em">{{ lichens[genus_name].species[species_key].auth | replace: ' ex ', ' <em>ex</em> ' }}</span>
 {% endif %}
 </h4>
 <ul>

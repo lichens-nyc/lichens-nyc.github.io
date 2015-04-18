@@ -3,6 +3,7 @@ Acarospora:
     CP: [{ when: 2013, who: JA }]
 Caloplaca:
   feracissima:
+    BT: [{ when: 1994, who: TD }]
     CP: [{ when: 2013, who: JA }]
     JE: [{ when: 1994, who: TD }]
     QV: [{ when: 1994, who: TD }]
@@ -41,6 +42,8 @@ Cladonia:
   cristatella f. squamosissima:
     BT: [{ when: 1994, who: TD }]
     LN: [{ when: 1994, who: TD }]
+  peziziformis:
+    CH: [{ when: 1994, who: TD }]
   polycarpoides:
     RR: [{ when: 1994, who: TD }]
   ramulosa:
@@ -71,6 +74,9 @@ Flavopunctelia:
   soredica:
     CP: [{ when: 2013, who: JA }]
 Lecanora:
+  caesiorubella:
+    MB: [{ when: 1994, who: TD }]
+  dispersa:
   strobilina:
     CP: [{ when: 2013, who: JA }]
 Lepraria:
@@ -84,8 +90,11 @@ Myelochroa:
     CP: [{ when: 2013, who: JA }]
 Parmelia:
   sulcata:
+    BW: [{ when: 1994, who: TD }]
     CP: [{ when: 2013, who: JA }]
     GW: [{ when: 2015, who: NP }]
+    JE: [{ when: 1994, who: TD }]
+    QV: [{ when: 1994, who: TD }]
     WC: [{ when: 2014, who: NP }]
   sp.:
     VC: [{ when: 2014, who: NY }]
@@ -99,6 +108,9 @@ Parmotrema:
 Phaeophyscia:
   adiastola:
     CP: [{ when: 2013, who: JA }]
+  orbicularis:
+    JE: [{ when: 1994, who: TD }]
+    QV: [{ when: 1994, who: TD }]
   rubropulchra:
     CP: [{ when: 2013, who: JA }]
 Physcia:
@@ -107,12 +119,17 @@ Physcia:
   millegrana:
     CP: [{ when: 2013, who: JA }, { when: 2014, who: DS }]
     GW: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+    JE: [{ when: 1994, who: TD }]
+    MB: [{ when: 1994, who: TD }]
     PP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+    PS: [{ when: 1992, who: TD }, { when: 1994, who: TD }]
+    QV: [{ when: 1994, who: TD }]
     SP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
     WC: [{ when: 2014, who: NP }]
   stellaris:
     CP: [{ when: 2013, who: JA }]
     GW: [{ when: 2015, who: NP }]
+    MB: [{ when: 1994, who: TD }]
   sp.:
     VC: [{ when: 2014, who: NY }]
 Physciella:
@@ -136,6 +153,9 @@ Sarcogyne:
 Trapelia:
   placodioides:
     CP: [{ when: 2013, who: JA }]
+Xanthomendoza:
+  fallax:
+    GD: [{ when: 1994, who: TD }]
 Xanthoparmelia:
   plittii:
     CP: [{ when: 2013, who: JA }]

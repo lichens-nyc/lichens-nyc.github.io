@@ -43,12 +43,14 @@ Cladonia:
       auth: Tuck.
     cristatella f. squamosissima:
       auth: Robbins
+    peziziformis:
+      auth: (With.) J.R.Laundon
+    polycarpoides:
+      auth: Nyl.
     ramulosa:
       auth: (With.) J.R.Laundon
     rei:
       auth: Schaer.
-    polycarpoides:
-      auth: Nyl.
     subcariosa:
       auth: Nyl.
 Flavoparmelia:
@@ -72,6 +74,10 @@ Lecanora:
   date: 1809
   form: crustose
   species:
+    caesiorubella:
+      auth: Ach.
+    dispersa:
+      auth: (Pers.) Röhl.
     strobilina:
       auth: (Spreng.) Kieff.
 Lepraria:
@@ -113,6 +119,8 @@ Phaeophyscia:
   species:
     adiastola:
       auth: (Essl.) Essl.
+    orbicularis:
+      auth: (Neck.) Moberg
     rubropulchra:
       auth: (Degel.) Essl.
 Physcia:
@@ -162,6 +170,13 @@ Trapelia:
   species:
     placodioides:
       auth: Coppins & P.James
+Xanthomendoza:
+  auth: S.Y.Kondr. & Kärnefelt
+  date: 1997
+  form: foliose
+  species:
+    fallax:
+      auth: (Hepp) Søchting, Kärnefelt & S.Y.Kondr.
 Xanthoparmelia:
   auth: (Vain.) Hale
   date: 1974

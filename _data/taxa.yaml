@@ -12,6 +12,8 @@ Caloplaca:
   species:
     feracissima:
       auth: H.Magn.
+    holocarpa:
+      auth: (Hoffm.) A.E.Wade
 Candelaria:
   auth: A.Massal.
   date: 1852
@@ -21,6 +23,13 @@ Candelaria:
       auth: (Dicks.) Stein
     concolor var. effusa:
       auth: (Tuck.) G.Merr. & Burnham
+Candelariella:
+  auth: Müll.Arg.
+  date: 1894
+  form: crustose
+  species:
+    efflorescens:
+      auth: R.C.Harris & W.R.Buck
 Chrysothrix:
   auth: Mont.
   date: 1852

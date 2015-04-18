@@ -5,8 +5,12 @@ Caloplaca:
   feracissima:
     BT: [{ when: 1994, who: TD }]
     CP: [{ when: 2013, who: JA }]
+    GW: [{ when: 2015, who: NP }]
     JE: [{ when: 1994, who: TD }]
     QV: [{ when: 1994, who: TD }]
+    SP: [{ when: 2015, who: NP }]
+  holocarpa:
+    GW: [{ when: 2015, who: NP }]
   sp.:
     VC: [{ when: 2014, who: NY }]
 Candelaria:
@@ -24,6 +28,9 @@ Candelaria:
     MB: [{ when: 1994, who: TD }]
     RP: [{ when: 1994, who: TD }]
     WS: [{ when: 1994, who: TD }]
+Candelariella:
+  efflorescens:
+    GW: [{ when: 2015, who: NP }]
 Chrysothrix:
   cf. caesia:
     JE: [{ when: 1994, who: TD }]

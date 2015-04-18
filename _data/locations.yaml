@@ -14,6 +14,7 @@ sites:
   DT: { name: Douglaston,                boro: QU }
   GD: { name: Glendale,                  boro: QU }
   GW: { name: Green-Wood Cemetery,       boro: BK }
+  HL: { name: High Line,                 boro: MA }
   HT: { name: Heffernan Triangle,        boro: BK }
   IH: { name: Inwood Hill Park,          boro: MA }
   JE: { name: Jamaica Estates,           boro: QU }

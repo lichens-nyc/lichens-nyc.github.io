@@ -43,6 +43,8 @@ Cladonia:
       auth: Tuck.
     cristatella f. squamosissima:
       auth: Robbins
+    mateocyatha:
+      auth: Robbins
     peziziformis:
       auth: (With.) J.R.Laundon
     polycarpoides:
@@ -119,6 +121,8 @@ Phaeophyscia:
   species:
     adiastola:
       auth: (Essl.) Essl.
+    insignis:
+      auth: (Mereschk.) Moberg
     orbicularis:
       auth: (Neck.) Moberg
     rubropulchra:
@@ -156,6 +160,9 @@ Rinodina:
   auth: (Ach.) Gray
   date: 1821
   form: crustose
+  species:
+    glauca:
+      auth: Ropin
 Sarcogyne:
   auth: Flot.
   date: 1851

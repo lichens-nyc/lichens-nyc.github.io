@@ -42,6 +42,8 @@ Cladonia:
   cristatella f. squamosissima:
     BT: [{ when: 1994, who: TD }]
     LN: [{ when: 1994, who: TD }]
+  mateocyatha:
+    HL: [{ when: 2002, who: RS }]
   peziziformis:
     CH: [{ when: 1994, who: TD }]
   polycarpoides:
@@ -79,6 +81,8 @@ Lecanora:
   dispersa:
   strobilina:
     CP: [{ when: 2013, who: JA }]
+  sp.:
+    HL: [{ when: 2002, who: RS }]
 Lepraria:
   finkii:
     CP: [{ when: 2013, who: JA }]
@@ -108,6 +112,8 @@ Parmotrema:
 Phaeophyscia:
   adiastola:
     CP: [{ when: 2013, who: JA }]
+  insignis:
+    HL: [{ when: 2002, who: RS }]
   orbicularis:
     JE: [{ when: 1994, who: TD }]
     QV: [{ when: 1994, who: TD }]
@@ -145,6 +151,8 @@ Punctelia:
     GW: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
     PP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
 Rinodina:
+  glauca:
+    HL: [{ when: 2002, who: RS }]
   sp.:
     GW: [{ when: 2015, who: NP }]
 Sarcogyne:

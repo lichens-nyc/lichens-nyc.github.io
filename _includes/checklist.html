@@ -21,8 +21,8 @@
       {% assign use_species = true %}
     {% else %}
       {% for site in species[1] %}
-        {% assign site_name = site[0] %}
-        {% if sites[site_name].boro == include.boro %}
+        {% assign site_code = site[0] %}
+        {% if sites[site_code].boro == include.boro %}
           {% assign use_species = true %}
         {% endif %}
       {% endfor %}
@@ -49,9 +49,9 @@
   <strong><cite>{{ genus_name }}</cite></strong>
   <span style="font-size: 0.7em">{{ taxa[genus_name].auth | replace: ' ex ', ' <em>ex</em> ' }}</span>
 </h2>
-<p>
+<!--<p>
   <strong>Form</strong>: {{ taxa[genus_name].form }}
-</p>
+</p>-->
 {% assign species_names = genus[1] | split: '🍄' %}
 {% for species_name in species_names %}
 <h4>

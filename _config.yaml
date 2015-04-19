@@ -1,6 +1,7 @@
 title:            Lichens of New York City
+description:      'Lichen checklists for New York City: The Bronx, Brooklyn, Manhattan, Queens, and Staten Island.'
 url:              http://lichens.nyc
-baseurl:          ""
+baseurl:          ''
 email:            patch@cpan.org
 twitter_username: nickpatch
 github_username:  nyclichens

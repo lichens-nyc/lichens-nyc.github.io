@@ -47,7 +47,7 @@
 {% assign genus_name = genus[0] %}
 <h2>
   <strong><cite>{{ genus_name }}</cite></strong>
-  <span style="font-size: 0.7em">{{ taxa[genus_name].auth | replace: ' ex ', ' <em>ex</em> ' }}</span>
+  <span style="font-size: 0.7em">{{ taxa[genus_name].auth | replace: '. ', '.' | replace: '.&', '. &' | replace: ' ex ', ' <em>ex</em> ' }}</span>
 </h2>
 <!--<p>
   <strong>Form</strong>: {{ taxa[genus_name].form }}
@@ -60,7 +60,7 @@
 {% else %}
   <strong><cite>{{ genus_name | append: ' ' | append: species_name | replace: ' cf. ', '</cite> cf. <cite>' | replace: ' var. ', '</cite> var. <cite>' | replace: ' f. ', '</cite> f. <cite>' }}</cite></strong>
   {% assign = species_key = species_name | replace: 'cf. ', '' %}
-  <span style="font-size: 0.7em">{{ taxa[genus_name].species[species_key].auth | replace: ' ex ', ' <em>ex</em> ' }}</span>
+  <span style="font-size: 0.7em">{{ taxa[genus_name].species[species_key].auth | replace: '. ', '.' | replace: '.&', '. &' | replace: ' ex ', ' <em>ex</em> ' }}</span>
 {% endif %}
 </h4>
 <ul>

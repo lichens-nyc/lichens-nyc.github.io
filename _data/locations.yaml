@@ -6,6 +6,7 @@ boros:
   SI: Staten Island
 
 sites:
+  AP: { name: Alley Pond Park,           boro: QU }
   BS: { name: Bayside,                   boro: QU }
   BT: { name: Bush Terminal,             boro: BK }
   BW: { name: Bushwick,                  boro: BK }

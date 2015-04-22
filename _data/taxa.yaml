@@ -44,8 +44,12 @@ Cladonia:
   species:
     apodocarpa:
       auth: Robbins
+    caespiticia:
+      auth: (Pers.) Flörke
     chlorophaea:
       auth: (Flörke ex Sommerf.) Spreng.
+    coniocraea:
+      auth: (Flörke) Spreng.
     conista:
       auth: (Nyl.) Robbins
     cristatella:
@@ -91,6 +95,13 @@ Lecanora:
       auth: (Pers.) Röhl.
     strobilina:
       auth: (Spreng.) Kieff.
+Leimonis:
+  auth: R.C.Harris
+  date: 2009
+  form: crustose
+  species:
+    erratica:
+      auth: (Körb.) R.C.Harris & Lendemer
 Lepraria:
   auth: Ach.
   date: 1803
@@ -186,6 +197,8 @@ Trapelia:
   date: 1929
   form: crustose
   species:
+    coarctata:
+      auth: (Turner ex Sm.) M.Choisy
     placodioides:
       auth: Coppins & P.James
 Xanthomendoza:

@@ -42,9 +42,14 @@ Chrysothrix:
 Cladonia:
   apodocarpa:
     BT: [{ when: 1994, who: TD }]
+  caespiticia:
+    AP: [{ when: 1966, who: IB }]
   chlorophaea:
+    AP: [{ when: 1966, who: IB }]
     BT: [{ when: 1994, who: TD }]
     DT: [{ when: 1988, who: TD }]
+  coniocraea:
+    AP: [{ when: 1966, who: IB }]
   conista:
     GW: [{ when: 1994, who: TD }]
   cristatella:
@@ -59,9 +64,12 @@ Cladonia:
   polycarpoides:
     RR: [{ when: 1994, who: TD }]
   ramulosa:
+    AP: [{ when: 1966, who: IB }]
     LN: [{ when: 1994, who: TD }]
   rei:
     BT: [{ when: 1994, who: TD }]
+  subcariosa:
+    AP: [{ when: 1966, who: IB }]
   cf. subcariosa:
     BT: [{ when: 1994, who: TD }]
   sp.:
@@ -90,10 +98,14 @@ Lecanora:
   caesiorubella:
     MB: [{ when: 1994, who: TD }]
   dispersa:
+    PP: [{ when: 1966, who: IB }]
   strobilina:
     CP: [{ when: 2013, who: JA }]
   sp.:
     HL: [{ when: 2002, who: RS }]
+Leimonis:
+  erratica:
+    AP: [{ when: 1966, who: IB }]
 Lepraria:
   finkii:
     CP: [{ when: 2013, who: JA }]
@@ -178,6 +190,8 @@ Sarcogyne:
   clavus:
     CP: [{ when: 2013, who: JA }]
 Trapelia:
+  coarctata:
+    AP: [{ when: 1966, who: IB }]
   placodioides:
     CP: [{ when: 2013, who: JA }]
 Xanthomendoza:

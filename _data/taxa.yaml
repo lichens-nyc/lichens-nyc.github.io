@@ -1,35 +1,33 @@
 Acarospora:
-  auth: A.Massal.
+  auth: A. Massal.
   date: 1852
   form: crustose
   species:
     fuscata:
-      auth: (Schrad.) Th.Fr.
-Caloplaca:
-  auth: Th.Fr.
-  date: 1871
+      auth: (Nyl.) Th. Fr.
+Athallia:
+  auth: Arup, Frödén & Søchting
+  date: 2013
   form: crustose
   species:
-    feracissima:
-      auth: H.Magn.
     holocarpa:
-      auth: (Hoffm.) A.E.Wade
+      auth: (Hoffm.) Arup, Frödén & Søchting
 Candelaria:
-  auth: A.Massal.
+  auth: A. Massal.
   date: 1852
   form: foliose
   species:
     concolor:
-      auth: (Dicks.) Stein
+      auth: (Dicks.) Arnold
     concolor var. effusa:
-      auth: (Tuck.) G.Merr. & Burnham
+      auth: Tuck.
 Candelariella:
-  auth: Müll.Arg.
+  auth: Müll. Arg.
   date: 1894
   form: crustose
   species:
     efflorescens:
-      auth: R.C.Harris & W.R.Buck
+      auth: R.C. Harris & W.R. Buck
 Chrysothrix:
   auth: Mont.
   date: 1852
@@ -38,7 +36,7 @@ Chrysothrix:
     caesia:
       auth: (Flot.) Ertz & Tehler
 Cladonia:
-  auth: Hill ex P.Browne
+  auth: P. Browne
   date: 1756
   form: squamulose/fruticose
   species:
@@ -51,19 +49,19 @@ Cladonia:
     coniocraea:
       auth: (Flörke) Spreng.
     conista:
-      auth: (Nyl.) Robbins
+      auth: (Ach.) Robbins
     cristatella:
       auth: Tuck.
     cristatella f. squamosissima:
-      auth: Robbins
+      auth: Robbins ex A. Evans
     mateocyatha:
       auth: Robbins
     peziziformis:
-      auth: (With.) J.R.Laundon
+      auth: (With.) J.R. Laundon
     polycarpoides:
       auth: Nyl.
     ramulosa:
-      auth: (With.) J.R.Laundon
+      auth: (With.) J.R. Laundon
     rei:
       auth: Schaer.
     subcariosa:
@@ -74,7 +72,7 @@ Flavoparmelia:
   form: foliose
   species:
     baltimorensis:
-      auth: (Gyeln. & Fóriss)
+      auth: (Gyeln. & Fóriss) Hale
     caperata:
       auth: (L.) Hale
 Flavopunctelia:
@@ -96,19 +94,19 @@ Lecanora:
     strobilina:
       auth: (Spreng.) Kieff.
 Leimonis:
-  auth: R.C.Harris
+  auth: R.C. Harris
   date: 2009
   form: crustose
   species:
     erratica:
-      auth: (Körb.) R.C.Harris & Lendemer
+      auth: (Körb.) R.C. Harris & Lendemer
 Lepraria:
   auth: Ach.
   date: 1803
   form: leprose
   species:
     finkii:
-      auth: (B. de Lesd.) R.C.Harris
+      auth: (de Lesd.) R.C. Harris
 Myelochroa:
   auth: (Asahina) Elix & Hale
   date: 1987
@@ -116,6 +114,13 @@ Myelochroa:
   species:
     aurulenta:
       auth: (Tuck.) Elix & Hale
+Oxneria:
+  auth: S.Y. Kondr. & Kärnefelt
+  date: 2003
+  form: foliose
+  species:
+    fallax:
+      auth: (Arnold) S.Y. Kondr. & Kärnefelt
 Parmelia:
   auth: Ach.
   date: 1803
@@ -124,16 +129,16 @@ Parmelia:
     sulcata:
       auth: Taylor
 Parmotrema:
-  auth: A.Massal.
+  auth: A. Massal.
   date: 1860
   form: foliose
   species:
     hypoleucinum:
-      auth: (Steiner) Hale
-    hypotropum:
+      auth: (J. Steiner) Hale
+    hypotropodes:
       auth: (Nyl.) Hale
     perlatum:
-      auth: (Huds.) M.Choisy
+      auth: (Huds.) M. Choisy
 Phaeophyscia:
   auth: Moberg
   date: 1977
@@ -146,14 +151,14 @@ Phaeophyscia:
     orbicularis:
       auth: (Neck.) Moberg
     rubropulchra:
-      auth: (Degel.) Essl.
+      auth: (Degel.) Moberg
 Physcia:
   auth: (Schreb.) Michx.
   date: 1803
   form: foliose
   species:
     adscendens:
-      auth: (Fr.) H.Olivier
+      auth: (Fr.) H. Olivier
     dubia:
       auth: (Hoffm.) Lettau
     millegrana:
@@ -175,7 +180,7 @@ Punctelia:
     caseana:
       auth: Lendemer & Hodkinson
     perreticulata:
-      auth: (Räsänen) G.Wilh. & Ladd
+      auth: (Räsänen) G. Wilh. & Ladd
     rudecta:
       auth: (Ach.) Krog
 Rinodina:
@@ -193,25 +198,25 @@ Sarcogyne:
     clavus:
       auth: (DC.) Kremp.
 Trapelia:
-  auth: M.Choisy
+  auth: M. Choisy
   date: 1929
   form: crustose
   species:
     coarctata:
-      auth: (Turner ex Sm.) M.Choisy
+      auth: (Turner ex Sm.) M. Choisy
     placodioides:
-      auth: Coppins & P.James
-Xanthomendoza:
-  auth: S.Y.Kondr. & Kärnefelt
-  date: 1997
-  form: foliose
+      auth: Coppins & P. James
+Xanthocarpia:
+  auth: A. Massal. & De Not.
+  date: 1853
+  form: crustose
   species:
-    fallax:
-      auth: (Hepp) Søchting, Kärnefelt & S.Y.Kondr.
+    feracissima:
+      auth: (H. Magn.) Frödén, Arup & Søchting
 Xanthoparmelia:
   auth: (Vain.) Hale
   date: 1974
   form: foliose
   species:
     plittii:
-      auth: (Gyel.) Hale
+      auth: (Gyeln.) Hale

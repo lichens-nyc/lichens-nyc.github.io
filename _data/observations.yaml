@@ -1,19 +1,9 @@
 Acarospora:
   fuscata:
     CP: [{ when: 2013, who: JA }]
-Caloplaca:
-  feracissima:
-    BT: [{ when: 1994, who: TD }]
-    CP: [{ when: 2013, who: JA }]
-    GW: [{ when: 2015, who: NP }]
-    IH: [{ when: 2015, who: NP }]
-    JE: [{ when: 1994, who: TD }]
-    QV: [{ when: 1994, who: TD }]
-    SP: [{ when: 2015, who: NP }]
+Athallia:
   holocarpa:
     GW: [{ when: 2015, who: NP }]
-  sp.:
-    VC: [{ when: 2014, who: NY }]
 Candelaria:
   concolor:
     BT: [{ when: 1994, who: TD }]
@@ -116,6 +106,9 @@ Lepraria:
 Myelochroa:
   aurulenta:
     CP: [{ when: 2013, who: JA }]
+Oxneria:
+  fallax:
+    GD: [{ when: 1994, who: TD }]
 Parmelia:
   sulcata:
     BW: [{ when: 1994, who: TD }]
@@ -129,7 +122,7 @@ Parmelia:
 Parmotrema:
   hypoleucinum:
     WC: [{ when: 2014, who: NP }]
-  hypotropum:
+  hypotropodes:
     CP: [{ when: 2013, who: JA }]
   perlatum:
     GW: [{ when: 2015, who: NP }]
@@ -194,9 +187,17 @@ Trapelia:
     AP: [{ when: 1966, who: IB }]
   placodioides:
     CP: [{ when: 2013, who: JA }]
-Xanthomendoza:
-  fallax:
-    GD: [{ when: 1994, who: TD }]
+Xanthocarpia:
+  feracissima:
+    BT: [{ when: 1994, who: TD }]
+    CP: [{ when: 2013, who: JA }]
+    GW: [{ when: 2015, who: NP }]
+    IH: [{ when: 2015, who: NP }]
+    JE: [{ when: 1994, who: TD }]
+    QV: [{ when: 1994, who: TD }]
+    SP: [{ when: 2015, who: NP }]
+  sp.:
+    VC: [{ when: 2014, who: NY }]
 Xanthoparmelia:
   plittii:
     CP: [{ when: 2013, who: JA }]

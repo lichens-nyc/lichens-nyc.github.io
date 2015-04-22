@@ -97,7 +97,7 @@ Leimonis:
   erratica:
     AP: [{ when: 1966, who: IB }]
 Lepraria:
-  finkii:
+  lobificans:
     CP: [{ when: 2013, who: JA }]
   sp.:
     #CP: [{ when: 2014, who: DS }]
@@ -122,7 +122,7 @@ Parmelia:
 Parmotrema:
   hypoleucinum:
     WC: [{ when: 2014, who: NP }]
-  hypotropodes:
+  hypotropum:
     CP: [{ when: 2013, who: JA }]
   perlatum:
     GW: [{ when: 2015, who: NP }]
@@ -196,8 +196,8 @@ Xanthocarpia:
     JE: [{ when: 1994, who: TD }]
     QV: [{ when: 1994, who: TD }]
     SP: [{ when: 2015, who: NP }]
-  sp.:
-    VC: [{ when: 2014, who: NY }]
+#  sp.:
+#    VC: [{ when: 2014, who: NY }]
 Xanthoparmelia:
   plittii:
     CP: [{ when: 2013, who: JA }]

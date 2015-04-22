@@ -12,6 +12,7 @@ Athallia:
   species:
     holocarpa:
       auth: (Hoffm.) Arup, Frödén & Søchting
+      syn: Caloplaca holocarpa
 Candelaria:
   auth: A. Massal.
   date: 1852
@@ -35,6 +36,7 @@ Chrysothrix:
   species:
     caesia:
       auth: (Flot.) Ertz & Tehler
+      syn: Arthonia caesia
 Cladonia:
   auth: P. Browne
   date: 1756
@@ -100,13 +102,15 @@ Leimonis:
   species:
     erratica:
       auth: (Körb.) R.C. Harris & Lendemer
+      syn: Micarea erratica
 Lepraria:
   auth: Ach.
   date: 1803
   form: leprose
   species:
-    finkii:
-      auth: (de Lesd.) R.C. Harris
+    lobificans:
+      auth: Nyl.
+      syn: Lepraria finkii
 Myelochroa:
   auth: (Asahina) Elix & Hale
   date: 1987
@@ -121,6 +125,9 @@ Oxneria:
   species:
     fallax:
       auth: (Arnold) S.Y. Kondr. & Kärnefelt
+      syn:
+        - Xanthomendoza fallax
+        - Xanthoria fallax
 Parmelia:
   auth: Ach.
   date: 1803
@@ -135,7 +142,7 @@ Parmotrema:
   species:
     hypoleucinum:
       auth: (J. Steiner) Hale
-    hypotropodes:
+    hypotropum:
       auth: (Nyl.) Hale
     perlatum:
       auth: (Huds.) M. Choisy
@@ -213,6 +220,7 @@ Xanthocarpia:
   species:
     feracissima:
       auth: (H. Magn.) Frödén, Arup & Søchting
+      syn: Caloplaca feracissima
 Xanthoparmelia:
   auth: (Vain.) Hale
   date: 1974

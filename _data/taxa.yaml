@@ -5,6 +5,7 @@ Acarospora:
   species:
     fuscata:
       auth: (Nyl.) Th. Fr.
+      eol: 26994208
 Athallia:
   auth: Arup, Frödén & Søchting
   date: 2013
@@ -13,6 +14,7 @@ Athallia:
     holocarpa:
       auth: (Hoffm.) Arup, Frödén & Søchting
       syn: Caloplaca holocarpa
+      eol: 30103785
 Candelaria:
   auth: A. Massal.
   date: 1852
@@ -20,6 +22,7 @@ Candelaria:
   species:
     concolor:
       auth: (Dicks.) Arnold
+      eol: 26748358
     concolor var. effusa:
       auth: Tuck.
 Candelariella:
@@ -29,6 +32,7 @@ Candelariella:
   species:
     efflorescens:
       auth: R.C. Harris & W.R. Buck
+      eol: 27383116
 Chrysothrix:
   auth: Mont.
   date: 1852
@@ -37,6 +41,7 @@ Chrysothrix:
     caesia:
       auth: (Flot.) Ertz & Tehler
       syn: Arthonia caesia
+      eol: 25680711
 Cladonia:
   auth: P. Browne
   date: 1756

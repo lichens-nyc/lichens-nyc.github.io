@@ -55,17 +55,24 @@
 {% assign species_names = genus[1] | split: '🍄' %}
 {% for species_name in species_names %}
 {% assign species_key = species_name | replace: 'cf. ', '' %}
+{% assign species_obj = taxa[genus_name].species[species_key] %}
+{% assign binomial    = genus_name | append: ' ' | append: species_name %}
+{% if species_obj.eol %}
+<a href="http://eol.org/data_objects/{{ species_obj.eol }}">
+  <img src="/photo/{{ binomial | replace: 'cf. ', '' | replace: ' ', '-' }}.jpeg" style="height: 80px; border: 1px solid #000; float: right" />
+</a>
+{% endif %}
 <h4>
 {% if species_name == 'sp.' %}
   <strong><cite>{{ genus_name }}</cite> {{ species_name }}</strong>
 {% else %}
-  <strong><cite>{{ genus_name | append: ' ' | append: species_name | replace: ' cf. ', '</cite> cf. <cite>' | replace: ' var. ', '</cite> var. <cite>' | replace: ' f. ', '</cite> f. <cite>' }}</cite></strong>
-  <span style="font-size: 0.7em">{{ taxa[genus_name].species[species_key].auth | replace: '. ', '.' | replace: '.&', '. &' | replace: ' ex ', ' <em>ex</em> ' }}</span>
+  <strong><cite>{{ binomial | replace: ' cf. ', '</cite> cf. <cite>' | replace: ' var. ', '</cite> var. <cite>' | replace: ' f. ', '</cite> f. <cite>' }}</cite></strong>
+  <span style="font-size: 0.7em">{{ species_obj.auth | replace: '. ', '.' | replace: '.&', '. &' | replace: ' ex ', ' <em>ex</em> ' }}</span>
 {% endif %}
 </h4>
-{% if taxa[genus_name].species[species_key].syn %}
+{% if species_obj.syn %}
 <p style="text-indent: 1em">
-  ≡ <cite>{{ taxa[genus_name].species[species_key].syn | join: ', ' }}</cite>
+  ≡ <cite>{{ species_obj.syn | join: ', ' }}</cite>
 </p>
 {% endif %}
 <ul>

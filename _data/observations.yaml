@@ -120,12 +120,15 @@ Parmelia:
   sp.:
     VC: [{ when: 2014, who: NY }]
 Parmotrema:
-  hypoleucinum:
-    WC: [{ when: 2014, who: NP }]
+#  hypoleucinum:
+#    WC: [{ when: 2014, who: NP }]
   hypotropum:
     CP: [{ when: 2013, who: JA }]
-  perlatum:
+#  perlatum:
+#    GW: [{ when: 2015, who: NP }]
+  sp.:
     GW: [{ when: 2015, who: NP }]
+    WC: [{ when: 2014, who: NP }]
 Phaeophyscia:
   adiastola:
     CP: [{ when: 2013, who: JA }]

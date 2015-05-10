@@ -41,7 +41,6 @@ Chrysothrix:
     caesia:
       auth: (Flot.) Ertz & Tehler
       syn: Arthonia caesia
-      eol: 25680711
 Cladonia:
   auth: P. Browne
   date: 1756
@@ -49,30 +48,39 @@ Cladonia:
   species:
     apodocarpa:
       auth: Robbins
+      eol: 26595315
     caespiticia:
       auth: (Pers.) Flörke
+      eol: 1994625
     chlorophaea:
       auth: (Flörke ex Sommerf.) Spreng.
+      eol: 26994248
     coniocraea:
       auth: (Flörke) Spreng.
+      eol: 27793788
     conista:
       auth: (Ach.) Robbins
     cristatella:
       auth: Tuck.
+      eol: 31469877
     cristatella f. squamosissima:
       auth: Robbins ex A. Evans
     mateocyatha:
       auth: Robbins
     peziziformis:
       auth: (With.) J.R. Laundon
+      eol: 26595491
     polycarpoides:
       auth: Nyl.
+      eol: 27793773
     ramulosa:
       auth: (With.) J.R. Laundon
+      eol: 19154355
     rei:
       auth: Schaer.
     subcariosa:
       auth: Nyl.
+      eol: 1994647
 Flavoparmelia:
   auth: Hale
   date: 1986

@@ -57,9 +57,9 @@
 {% assign species_key = species_name | replace: 'cf. ', '' %}
 {% assign species_obj = taxa[genus_name].species[species_key] %}
 {% assign binomial    = genus_name | append: ' ' | append: species_name %}
-{% if species_obj.eol %}
+{% if taxa[genus_name].species[species_name].eol %}
 <a href="http://eol.org/data_objects/{{ species_obj.eol }}">
-  <img src="/photo/{{ binomial | replace: 'cf. ', '' | replace: ' ', '-' }}.jpeg" style="height: 80px; border: 1px solid #000; float: right" />
+  <img src="/photo/{{ binomial | replace: ' ', '-' }}.jpeg" style="height: 80px; border: 1px solid #000; float: right" />
 </a>
 {% endif %}
 <h4>

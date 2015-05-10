@@ -206,4 +206,6 @@ Xanthoparmelia:
     CP: [{ when: 2013, who: JA }]
 Xanthoria:
   parietina:
+    BT: [{ when: 2015, who: NP }]
     HL: [{ when: 2002, who: RS }]
+    SP: [{ when: 2015, who: NP }]

@@ -177,6 +177,7 @@ Punctelia:
     GW: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
     IH: [{ when: 2015, who: NP }]
     PP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
+    SP: [{ when: 2015, who: NP }]
 Rinodina:
   glauca:
     HL: [{ when: 2002, who: RS }]

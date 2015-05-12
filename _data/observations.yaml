@@ -170,7 +170,6 @@ Physciella:
 Punctelia:
   caseana:
     CP: [{ when: 2013, who: JA }]
-  perreticulata:
     WC: [{ when: 2014, who: NP }]
   rudecta:
     CP: [{ when: 2013, who: JA }, { when: 2014, who: DS }]

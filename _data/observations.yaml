@@ -106,6 +106,7 @@ Lepraria:
 Myelochroa:
   aurulenta:
     CP: [{ when: 2013, who: JA }]
+    GW: [{ when: 2014, who: NP }]
 Oxneria:
   fallax:
     GD: [{ when: 1994, who: TD }]

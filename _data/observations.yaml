@@ -168,6 +168,7 @@ Physcia:
 Physciella:
   chloantha:
     CP: [{ when: 2013, who: JA }, { when: 2014, who: NP }]
+    SP: [{ when: 2015, who: NP }]
 Punctelia:
   caseana:
     CP: [{ when: 2013, who: JA }]

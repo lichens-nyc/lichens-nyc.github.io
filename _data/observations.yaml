@@ -154,7 +154,7 @@ Physcia:
     JE: [{ when: 1994, who: TD }]
     MB: [{ when: 1994, who: TD }]
     PP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
-    PS: [{ when: 1992, who: TD }, { when: 1994, who: TD }]
+    #PS: [{ when: 1992, who: TD }, { when: 1994, who: TD }]
     QV: [{ when: 1994, who: TD }]
     SP: [{ when: 2014, who: NP }, { when: 2015, who: NP }]
     WC: [{ when: 2014, who: NP }]

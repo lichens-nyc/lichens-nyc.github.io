@@ -23,7 +23,7 @@ sites:
   MB: { name: Manhattan Beach,           boro: BK }
   NY: { name: New York Botanical Garden, boro: BX }
   PP: { name: Prospect Park,             boro: BK }
-  PS: { name: Park Slope,                boro: BK }
+  #PS: { name: Park Slope,                boro: BK }
   QV: { name: Queens Village,            boro: QU }
   RP: { name: Rego Park,                 boro: QU }
   RR: { name: Ridgewood Reservoir,       boro: QU }

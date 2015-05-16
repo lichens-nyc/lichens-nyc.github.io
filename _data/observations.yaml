@@ -167,7 +167,7 @@ Physcia:
     VC: [{ when: 2014, who: NY }]
 Physciella:
   chloantha:
-    CP: [{ when: 2013, who: JA }]
+    CP: [{ when: 2013, who: JA }, { when: 2014, who: NP }]
 Punctelia:
   caseana:
     CP: [{ when: 2013, who: JA }]

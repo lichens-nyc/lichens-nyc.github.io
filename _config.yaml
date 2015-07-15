@@ -3,7 +3,7 @@ description:      'Lichen checklists for New York City: The Bronx, Brooklyn, Man
 url:              http://lichens.nyc
 baseurl:          ''
 email:            patch@cpan.org
-twitter_username: nickpatch
+twitter_username: novapatch
 github_username:  nyclichens
 encoding:         utf-8
 markdown:         kramdown

@@ -1,3 +1,4 @@
+---
 Acarospora:
   auth: A. Massal.
   date: 1852
@@ -13,8 +14,8 @@ Athallia:
   species:
     holocarpa:
       auth: (Hoffm.) Arup, Frödén & Søchting
-      syn: Caloplaca holocarpa
       eol: 30103785
+      syn: Caloplaca holocarpa
 Candelaria:
   auth: A. Massal.
   date: 1852
@@ -138,9 +139,7 @@ Oxneria:
   species:
     fallax:
       auth: (Arnold) S.Y. Kondr. & Kärnefelt
-      syn:
-        - Xanthomendoza fallax
-        - Xanthoria fallax
+      syn: Xanthomendoza fallax, Xanthoria fallax
 Parmelia:
   auth: Ach.
   date: 1803

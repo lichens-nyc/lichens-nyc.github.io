@@ -1,34 +1,83 @@
+---
 boros:
-  BX: Bronx
   BK: Brooklyn
+  BX: Bronx
   MA: Manhattan
   QU: Queens
   SI: Staten Island
-
 sites:
-  AP: { name: Alley Pond Park,           boro: QU }
-  BS: { name: Bayside,                   boro: QU }
-  BT: { name: Bush Terminal,             boro: BK }
-  BW: { name: Bushwick,                  boro: BK }
-  CH: { name: Cunningham Park,           boro: QU }
-  CP: { name: Central Park,              boro: MA }
-  DT: { name: Douglaston,                boro: QU }
-  GD: { name: Glendale,                  boro: QU }
-  GW: { name: Green-Wood Cemetery,       boro: BK }
-  HL: { name: High Line,                 boro: MA }
-  HT: { name: Heffernan Triangle,        boro: BK }
-  IH: { name: Inwood Hill Park,          boro: MA }
-  JE: { name: Jamaica Estates,           boro: QU }
-  LN: { name: Little Neck Bay,           boro: QU }
-  MB: { name: Manhattan Beach,           boro: BK }
-  NY: { name: New York Botanical Garden, boro: BX }
-  PP: { name: Prospect Park,             boro: BK }
-  #PS: { name: Park Slope,                boro: BK }
-  QV: { name: Queens Village,            boro: QU }
-  RP: { name: Rego Park,                 boro: QU }
-  RR: { name: Ridgewood Reservoir,       boro: QU }
-  RW: { name: Ridgewood,                 boro: QU }
-  SP: { name: Sunset Park,               boro: BK }
-  VC: { name: Van Cortlandt Park,        boro: BX }
-  WC: { name: Woodlawn Cemetery,         boro: BX }
-  WS: { name: Whitestone,                boro: QU }
+  AP:
+    boro: QU
+    name: Alley Pond Park
+  BS:
+    boro: QU
+    name: Bayside
+  BT:
+    boro: BK
+    name: Bush Terminal
+  BW:
+    boro: BK
+    name: Bushwick
+  CH:
+    boro: QU
+    name: Cunningham Park
+  CP:
+    boro: MA
+    name: Central Park
+  DT:
+    boro: QU
+    name: Douglaston
+  GD:
+    boro: QU
+    name: Glendale
+  GW:
+    boro: BK
+    name: Green-Wood Cemetery
+  HL:
+    boro: MA
+    name: High Line
+  HT:
+    boro: BK
+    name: Heffernan Triangle
+  IH:
+    boro: MA
+    name: Inwood Hill Park
+  JE:
+    boro: QU
+    name: Jamaica Estates
+  LN:
+    boro: QU
+    name: Little Neck Bay
+  MB:
+    boro: BK
+    name: Manhattan Beach
+  NY:
+    boro: BX
+    name: New York Botanical Garden
+  PP:
+    boro: BK
+    name: Prospect Park
+  QV:
+    boro: QU
+    name: Queens Village
+  RP:
+    boro: QU
+    name: Rego Park
+  RR:
+    boro: QU
+    name: Ridgewood Reservoir
+  RW:
+    boro: QU
+    name: Ridgewood
+  SP:
+    boro: BK
+    name: Sunset Park
+  VC:
+    boro: BX
+    name: Van Cortlandt Park
+  WC:
+    boro: BX
+    name: Woodlawn Cemetery
+  WS:
+    boro: QU
+    name: Whitestone

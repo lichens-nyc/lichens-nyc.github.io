@@ -4,7 +4,7 @@ url:              http://lichens.nyc
 baseurl:          ''
 email:            patch@cpan.org
 twitter_username: novapatch
-github_username:  nyclichens
+github_username:  lichens-nyc
 encoding:         utf-8
 markdown:         kramdown
 timezone:         America/New_York

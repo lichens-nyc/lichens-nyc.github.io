@@ -19,6 +19,8 @@ Candelaria:
       who: JA
     - when: 2014
       who: DS
+    - when: 2015
+      who: JA
     GW:
     - when: 2014
       who: NP
@@ -178,6 +180,8 @@ Flavoparmelia:
       who: JA
     - when: 2014
       who: DS
+    - when: 2015
+      who: JA
     GW:
     - when: 2014
       who: NP
@@ -218,6 +222,9 @@ Lecanora:
     - when: 1994
       who: TD
   dispersa:
+    CP:
+    - when: 2015
+      who: JA
     PP:
     - when: 1966
       who: IB
@@ -238,6 +245,8 @@ Lepraria:
   lobificans:
     CP:
     - when: 2013
+      who: JA
+    - when: 2015
       who: JA
   sp.:
     IH:
@@ -335,6 +344,8 @@ Physcia:
       who: JA
     - when: 2014
       who: DS
+    - when: 2015
+      who: JA
     GW:
     - when: 2014
       who: NP
@@ -437,6 +448,8 @@ Sarcogyne:
     CP:
     - when: 2013
       who: JA
+    - when: 2015
+      who: JA
 Trapelia:
   coarctata:
     AP:
@@ -446,6 +459,8 @@ Trapelia:
     CP:
     - when: 2013
       who: JA
+    - when: 2015
+      who: JA
 Xanthocarpia:
   feracissima:
     BT:
@@ -453,6 +468,8 @@ Xanthocarpia:
       who: TD
     CP:
     - when: 2013
+      who: JA
+    - when: 2015
       who: JA
     GW:
     - when: 2015

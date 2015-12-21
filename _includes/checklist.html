@@ -46,6 +46,7 @@
 {% assign genus = genus_raw | split: '🌲' %}
 {% assign genus_name = genus[0] %}
 <h2>
+  <a name="{{ genus_name }}"></a>
   <strong><cite>{{ genus_name }}</cite></strong>
   <span style="font-size: 0.7em">{{ taxa[genus_name].auth | replace: '. ', '.' | replace: '.&', '. &' | replace: ' ex ', ' <em>ex</em> ' }}</span>
   {% if taxa[genus_name].form == 'nonlichen' %}
@@ -64,6 +65,7 @@
 </a>
 {% endif %}
 <h4>
+<a name="{{ binomial }}"></a>
 {% if species_name == 'sp.' %}
   <strong><cite>{{ genus_name }}</cite> {{ species_name }}</strong>
 {% else %}

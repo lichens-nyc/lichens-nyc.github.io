@@ -48,10 +48,11 @@
 <h2>
   <strong><cite>{{ genus_name }}</cite></strong>
   <span style="font-size: 0.7em">{{ taxa[genus_name].auth | replace: '. ', '.' | replace: '.&', '. &' | replace: ' ex ', ' <em>ex</em> ' }}</span>
+  {% if taxa[genus_name].form == 'nonlichen' %}
+    {% assign nonlichen = true %}
+    <span style="vertical-align: super; font-size: 0.35em">🍄</span>
+  {% endif %}
 </h2>
-<!--<p>
-  <strong>Form</strong>: {{ taxa[genus_name].form }}
-</p>-->
 {% assign species_names = genus[1] | split: '🍄' %}
 {% for species_name in species_names %}
 {% assign species_key = species_name | replace: 'cf. ', '' %}
@@ -107,3 +108,6 @@
 </ul>
 {% endfor %}
 {% endfor %}
+{% if nonlichen %}
+<p style="margin-top: 3em">🍄 = not a true lichen due to lack of lichenized thallus</p>
+{% endif %}

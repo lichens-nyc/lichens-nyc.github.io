@@ -36,6 +36,9 @@ sites:
   HL:
     boro: MA
     name: High Line
+  HR:
+    boro: SI
+    name: High Rock Park
   HT:
     boro: BK
     name: Heffernan Triangle

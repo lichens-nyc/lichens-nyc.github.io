@@ -148,6 +148,14 @@ Melanelixia:
   species:
     subaurifera:
       auth: (Nyl.) O. Blanco, A. Crespo, Divakar, Essl., D. Hawksw. & Lumbsch
+Multiclavula:
+  auth: R.H. Petersen
+  date: 1967
+  form: nonlichen
+  species:
+    mucida:
+      auth: (Pers.) R.H. Petersen
+      eol: 194316
 Myelochroa:
   auth: (Asahina) Elix & Hale
   date: 1987

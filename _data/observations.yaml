@@ -255,6 +255,11 @@ Lepraria:
     WC:
     - when: 2014
       who: NP
+Multiclavula:
+  mucida:
+    HR:
+    - when: 2015
+      who: TB
 Myelochroa:
   aurulenta:
     CP:

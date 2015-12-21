@@ -7,6 +7,13 @@ Acarospora:
     fuscata:
       auth: (Nyl.) Th. Fr.
       eol: 26994208
+Allocetraria:
+  auth: Kurok. & M.J. Lai
+  date: 1991
+  form: foliose
+  species:
+    oakesiana:
+      auth: (Tuck.) Randlane & A. Thell
 Athallia:
   auth: Arup, Frödén & Søchting
   date: 2013
@@ -98,6 +105,13 @@ Flavopunctelia:
   species:
     soredica:
       auth: (Nyl.) Hale
+Graphis:
+  auth: Adans.
+  date: 1763
+  form: crustose
+  species:
+    scripta:
+      auth: (L.) Ach.
 Lecanora:
   auth: Ach.
   date: 1809
@@ -122,9 +136,18 @@ Lepraria:
   date: 1803
   form: leprose
   species:
+    caesiella:
+      auth: R.C. Harris
     lobificans:
       auth: Nyl.
       syn: Lepraria finkii
+Melanelixia:
+  auth: O. Blanco, A. Crespo, Divakar, Essl., D. Hawksw. & Lumbsch
+  date: 2004
+  form: foliose
+  species:
+    subaurifera:
+      auth: (Nyl.) O. Blanco, A. Crespo, Divakar, Essl., D. Hawksw. & Lumbsch
 Myelochroa:
   auth: (Asahina) Elix & Hale
   date: 1987
@@ -158,6 +181,15 @@ Parmotrema:
       auth: (Nyl.) Hale
     perlatum:
       auth: (Huds.) M. Choisy
+    stuppeum:
+      auth: (Taylor) Hale
+Peltigera:
+  auth: Willd.
+  date: 1787
+  form: foliose
+  species:
+    canina:
+      auth: (L.) Willd.
 Phaeophyscia:
   auth: Moberg
   date: 1977
@@ -191,6 +223,15 @@ Physciella:
   species:
     chloantha:
       auth: (Ach.) Essl.
+Porpidia:
+  auth: Körb.
+  date: 1855
+  form: crustose
+  species:
+    albocaerulescens:
+      auth: (Wulfen) Hertel & Knoph
+    crustulata:
+      auth: (Ach.) Hertel & Knoph
 Punctelia:
   auth: Krog
   date: 1982
@@ -223,6 +264,10 @@ Trapelia:
       auth: (Turner ex Sm.) M. Choisy
     placodioides:
       auth: Coppins & P. James
+Usnea:
+  auth: Dill. ex Adans.
+  date: 1763
+  form: fruticose
 Xanthocarpia:
   auth: A. Massal. & De Not.
   date: 1853

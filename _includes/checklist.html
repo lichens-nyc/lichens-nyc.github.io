@@ -50,7 +50,7 @@
   <span style="font-size: 0.7em">{{ taxa[genus_name].auth | replace: '. ', '.' | replace: '.&', '. &' | replace: ' ex ', ' <em>ex</em> ' }}</span>
   {% if taxa[genus_name].form == 'nonlichen' %}
     {% assign nonlichen = true %}
-    <span style="vertical-align: super; font-size: 0.35em">🍄</span>
+    <!--<span style="vertical-align: super; font-size: 0.35em">🍄</span>-->
   {% endif %}
 </h2>
 {% assign species_names = genus[1] | split: '🍄' %}
@@ -109,5 +109,5 @@
 {% endfor %}
 {% endfor %}
 {% if nonlichen %}
-<p style="margin-top: 3em">🍄 = not a true lichen due to lack of lichenized thallus</p>
+<!--<p style="margin-top: 3em">🍄 = not a true lichen due to lack of lichenized thallus</p>-->
 {% endif %}

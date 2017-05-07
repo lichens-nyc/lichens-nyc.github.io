@@ -9,17 +9,17 @@ Candelaria	concolor	GW	2014	NP
 Candelaria	concolor	GW	2015	NP
 Candelaria	concolor	IH	2015	NP
 Candelaria	concolor	JE	1994	TD
+Candelaria	concolor	MB	1994	TD
 Candelaria	concolor	NY	2014	NP
 Candelaria	concolor	NY	2015	NP
 Candelaria	concolor	PP	2014	NP
 Candelaria	concolor	PP	2015	NP
 Candelaria	concolor	QV	1994	TD
+Candelaria	concolor	RP	1994	TD
 Candelaria	concolor	SP	2014	NP
 Candelaria	concolor	SP	2015	NP
 Candelaria	concolor	WC	2014	NP
-Candelaria	concolor var. effusa	MB	1994	TD
-Candelaria	concolor var. effusa	RP	1994	TD
-Candelaria	concolor var. effusa	WS	1994	TD
+Candelaria	concolor	WS	1994	TD
 Candelariella	efflorescens	GW	2015	NP
 Candelariella	efflorescens	IH	2015	NP
 Chrysothrix	cf. caesia	JE	1994	TD
@@ -38,7 +38,6 @@ Cladonia	cristatella f. squamosissima	BT	1994	TD
 Cladonia	cristatella f. squamosissima	LN	1994	TD
 Cladonia	mateocyatha	HL	2002	RS
 Cladonia	peziziformis	CH	1994	TD
-Cladonia	polycarpoides	RR	1994	TD
 Cladonia	ramulosa	AP	1966	IB
 Cladonia	ramulosa	LN	1994	TD
 Cladonia	rei	BT	1994	TD
@@ -48,6 +47,7 @@ Cladonia	sp.	IH	2015	NY
 Cladonia	sp.	RW	1994	TD
 Cladonia	sp.	WC	2014	NP
 Cladonia	subcariosa	AP	1966	IB
+Cladonia	subcariosa	RR	1994	TD
 Flavoparmelia	baltimorensis	CP	2013	JA
 Flavoparmelia	baltimorensis	CP	2014	DS
 Flavoparmelia	caperata	CP	2013	JA
@@ -66,19 +66,18 @@ Flavoparmelia	caperata	VC	2014	NY
 Flavoparmelia	caperata	WC	2014	NP
 Flavopunctelia	soredica	CP	2013	JA
 Lecanora	caesiorubella	MB	1994	TD
-Lecanora	dispersa	CP	2015	JA
-Lecanora	dispersa	PP	1966	IB
 Lecanora	sp.	HL	2002	RS
 Lecanora	strobilina	CP	2013	JA
 Leimonis	erratica	AP	1966	IB
-Lepraria	lobificans	CP	2013	JA
-Lepraria	lobificans	CP	2015	JA
+Lepraria	finkii	CP	2013	JA
+Lepraria	finkii	CP	2015	JA
 Lepraria	sp.	IH	2015	NP
 Lepraria	sp.	WC	2014	NP
 Multiclavula	mucida	HR	2015	TB
 Myelochroa	aurulenta	CP	2013	JA
 Myelochroa	aurulenta	GW	2014	NP
-Oxneria	fallax	GD	1994	TD
+Myriolecis	dispersa	CP	2015	JA
+Myriolecis	dispersa	PP	1966	IB
 Parmelia	sp.	VC	2014	NY
 Parmelia	sulcata	BW	1994	TD
 Parmelia	sulcata	CP	2013	JA
@@ -130,7 +129,7 @@ Punctelia	rudecta	GW	2014	NP
 Punctelia	rudecta	GW	2015	NP
 Punctelia	rudecta	IH	2015	NP
 Punctelia	rudecta	SP	2015	NP
-Rinodina	glauca	HL	2002	RS
+Rinodina	freyi	HL	2002	RS
 Rinodina	sp.	GW	2015	NP
 Sarcogyne	clavus	CP	2013	JA
 Sarcogyne	clavus	CP	2015	JA
@@ -145,6 +144,7 @@ Xanthocarpia	feracissima	IH	2015	NP
 Xanthocarpia	feracissima	JE	1994	TD
 Xanthocarpia	feracissima	QV	1994	TD
 Xanthocarpia	feracissima	SP	2015	NP
+Xanthomendoza	fallax	GD	1994	TD
 Xanthoparmelia	plittii	CP	2013	JA
 Xanthoria	parietina	BT	2015	NP
 Xanthoria	parietina	HL	2002	RS

@@ -5,15 +5,8 @@ Acarospora:
   form: crustose
   species:
     fuscata:
-      auth: (Nyl.) Th. Fr.
+      auth: (Schrader) Arnold
       eol: 26994208
-Allocetraria:
-  auth: Kurok. & M.J. Lai
-  date: 1991
-  form: foliose
-  species:
-    oakesiana:
-      auth: (Tuck.) Randlane & A. Thell
 Athallia:
   auth: Arup, Frödén & Søchting
   date: 2013
@@ -29,10 +22,8 @@ Candelaria:
   form: foliose
   species:
     concolor:
-      auth: (Dicks.) Arnold
+      auth: (Dickson) Stein
       eol: 26748358
-    concolor var. effusa:
-      auth: Tuck.
 Candelariella:
   auth: Müll. Arg.
   date: 1894
@@ -47,8 +38,8 @@ Chrysothrix:
   form: crustose
   species:
     caesia:
-      auth: (Flot.) Ertz & Tehler
-      syn: Arthonia caesia
+      auth: (Flotow) Ertz & Tehler
+      syn: Allarthonia caesia, Arthonia caesia, A. lecideella
 Cladonia:
   auth: P. Browne
   date: 1756
@@ -61,13 +52,13 @@ Cladonia:
       auth: (Pers.) Flörke
       eol: 1994625
     chlorophaea:
-      auth: (Flörke ex Sommerf.) Spreng.
+      auth: (Flörke ex Sommerf.) Sprengel
       eol: 26994248
     coniocraea:
-      auth: (Flörke) Spreng.
+      auth: (Flörke) Sprengel
       eol: 27793788
     conista:
-      auth: (Ach.) Robbins
+      auth: (Nyl.) Robbins
     cristatella:
       auth: Tuck.
       eol: 31469877
@@ -76,13 +67,10 @@ Cladonia:
     mateocyatha:
       auth: Robbins
     peziziformis:
-      auth: (With.) J.R. Laundon
+      auth: (With.) J. R. Laundon
       eol: 26595491
-    polycarpoides:
-      auth: Nyl.
-      eol: 27793773
     ramulosa:
-      auth: (With.) J.R. Laundon
+      auth: (With.) J. R. Laundon
       eol: 19154355
     rei:
       auth: Schaer.
@@ -95,9 +83,12 @@ Flavoparmelia:
   form: foliose
   species:
     baltimorensis:
-      auth: (Gyeln. & Fóriss) Hale
+      auth: (Gyelnik & Fóriss) Hale
+      syn: Parmelia baltimorensis, Pseudoparmelia baltimorensis
     caperata:
       auth: (L.) Hale
+      syn: Parmelia caperata, P. cylisphora, P. flavicans, P. herreana, P. negativa,
+        Pseudoparmelia caperata
 Flavopunctelia:
   auth: (Krog) Hale
   date: 1984
@@ -105,6 +96,7 @@ Flavopunctelia:
   species:
     soredica:
       auth: (Nyl.) Hale
+      syn: Parmelia soredica, P. ulophyllodes, P. manshurica, Punctelia soredica
 Graphis:
   auth: Adans.
   date: 1763
@@ -119,42 +111,41 @@ Lecanora:
   species:
     caesiorubella:
       auth: Ach.
-    dispersa:
-      auth: (Pers.) Röhl.
     strobilina:
-      auth: (Spreng.) Kieff.
+      auth: (Sprengel) Kieffer
 Leimonis:
   auth: R.C. Harris
   date: 2009
   form: crustose
   species:
     erratica:
-      auth: (Körb.) R.C. Harris & Lendemer
-      syn: Micarea erratica
+      auth: (Körber) R. C. Harris & Lendemer
+      syn: Lecidea chalybeiformis, L. erratica, L. suberratica, Micarea erratica
 Lepraria:
   auth: Ach.
   date: 1803
   form: leprose
   species:
     caesiella:
-      auth: R.C. Harris
-    lobificans:
-      auth: Nyl.
-      syn: Lepraria finkii
+      auth: R. C. Harris
+    finkii:
+      auth: (B. de Lesd.) R. C. Harris
+      syn: Crocynia aliciae, C. americana
 Melanelixia:
   auth: O. Blanco, A. Crespo, Divakar, Essl., D. Hawksw. & Lumbsch
   date: 2004
   form: foliose
   species:
     subaurifera:
-      auth: (Nyl.) O. Blanco, A. Crespo, Divakar, Essl., D. Hawksw. & Lumbsch
+      auth: (Nyl.) O. Blanco et al.
+      syn: Melanelia subaurifera, Parmelia subaurifera
 Multiclavula:
   auth: R.H. Petersen
   date: 1967
   form: nonlichen
   species:
     mucida:
-      auth: (Pers.) R.H. Petersen
+      auth: (Fr.) R. Petersen
       eol: 26603689
 Myelochroa:
   auth: (Asahina) Elix & Hale
@@ -163,14 +154,15 @@ Myelochroa:
   species:
     aurulenta:
       auth: (Tuck.) Elix & Hale
-Oxneria:
-  auth: S.Y. Kondr. & Kärnefelt
-  date: 2003
-  form: foliose
+      syn: Parmelina aurulenta, Parmelia aurulenta, P. silvestris
+Myriolecis:
+  auth: Clements
+  date: 1909
+  form: crustose
   species:
-    fallax:
-      auth: (Arnold) S.Y. Kondr. & Kärnefelt
-      syn: Xanthomendoza fallax, Xanthoria fallax
+    dispersa:
+      auth: (Pers.) Śliwa, Zhao Xin & Lumbsch
+      syn: Lecanora dispersa
 Parmelia:
   auth: Ach.
   date: 1803
@@ -185,12 +177,17 @@ Parmotrema:
   species:
     hypoleucinum:
       auth: (J. Steiner) Hale
+      syn: Parmelia hypoleucina
     hypotropum:
       auth: (Nyl.) Hale
+      syn: Parmelia hypotropa, Parmelia hypotropa var. sorediata, P. cetrata var.
+        hypotropoides
     perlatum:
-      auth: (Huds.) M. Choisy
+      auth: (Hudson) M. Choisy
+      syn: Parmelia perlata, P. trichotera
     stuppeum:
       auth: (Taylor) Hale
+      syn: Parmelia stuppea, P. claudelii, P. maxima
 Peltigera:
   auth: Willd.
   date: 1787
@@ -205,12 +202,15 @@ Phaeophyscia:
   species:
     adiastola:
       auth: (Essl.) Essl.
+      syn: Physcia adiastola
     insignis:
       auth: (Mereschk.) Moberg
     orbicularis:
-      auth: (Neck.) Moberg
+      auth: (Necker) Moberg
+      syn: Physcia orbicularis, P. virella
     rubropulchra:
-      auth: (Degel.) Moberg
+      auth: (Degel.) Essl.
+      syn: Physcia orbicularis f. rubropulchra, P. endochrysea, P. rubropulchra
 Physcia:
   auth: (Schreb.) Michx.
   date: 1803
@@ -231,6 +231,7 @@ Physciella:
   species:
     chloantha:
       auth: (Ach.) Essl.
+      syn: Physcia chloantha, P. luganensis, Phaeophyscia chloantha
 Porpidia:
   auth: Körb.
   date: 1855
@@ -238,8 +239,10 @@ Porpidia:
   species:
     albocaerulescens:
       auth: (Wulfen) Hertel & Knoph
+      syn: Huilia albocaerulescens, Lecidea albocaerulescens, L. hebescens
     crustulata:
       auth: (Ach.) Hertel & Knoph
+      syn: Huilia crustulata, Lecidea crustulata
 Punctelia:
   auth: Krog
   date: 1982
@@ -249,13 +252,14 @@ Punctelia:
       auth: Lendemer & Hodkinson
     rudecta:
       auth: (Ach.) Krog
+      syn: Parmelia rudecta
 Rinodina:
   auth: (Ach.) Gray
   date: 1821
   form: crustose
   species:
-    glauca:
-      auth: Ropin
+    freyi:
+      auth: H. Magn.
 Sarcogyne:
   auth: Flot.
   date: 1851
@@ -263,19 +267,29 @@ Sarcogyne:
   species:
     clavus:
       auth: (DC.) Kremp.
+      syn: Biatorella clavus
 Trapelia:
   auth: M. Choisy
   date: 1929
   form: crustose
   species:
     coarctata:
-      auth: (Turner ex Sm.) M. Choisy
+      auth: (Turner) M. Choisy
+      syn: Lecidea coarctata
     placodioides:
       auth: Coppins & P. James
 Usnea:
   auth: Dill. ex Adans.
   date: 1763
   form: fruticose
+Usnocetraria:
+  auth: M. J. Lai & C. J. Wei
+  date: 2007
+  form: foliose
+  species:
+    oakesiana:
+      auth: (Tuck.) M. J. Lai & C. J. Wei
+      syn: Allocetraria oakesiana, Cetraria oakesiana, Tuckermannopsis oakesiana
 Xanthocarpia:
   auth: A. Massal. & De Not.
   date: 1853
@@ -284,17 +298,27 @@ Xanthocarpia:
     feracissima:
       auth: (H. Magn.) Frödén, Arup & Søchting
       syn: Caloplaca feracissima
+Xanthomendoza:
+  auth: S.Y. Kondr. & Kärnefelt
+  date: 1997
+  form: foliose
+  species:
+    fallax:
+      auth: (Hepp ex Arnold) Søchting, Kärnefelt & S. Y. Kondr.
+      syn: Xanthoria fallax
 Xanthoparmelia:
   auth: (Vain.) Hale
   date: 1974
   form: foliose
   species:
     plittii:
-      auth: (Gyeln.) Hale
+      auth: (Gyelnk) Hale
+      syn: Parmelia plittii
 Xanthoria:
   auth: (Fr.) Th. Fr.
   date: 1861
   form: foliose
   species:
     parietina:
-      auth: (L.) Beltr.
+      auth: (L.) Th. Fr.
+      syn: Teloschistes parietinus

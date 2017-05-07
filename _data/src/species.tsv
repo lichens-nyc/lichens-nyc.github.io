@@ -1,61 +1,59 @@
 genus	species	auth	syn	eol
-Acarospora	fuscata	(Nyl.) Th. Fr.		26994208
-Allocetraria	oakesiana	(Tuck.) Randlane & A. Thell		
+Acarospora	fuscata	(Schrader) Arnold		26994208
 Athallia	holocarpa	(Hoffm.) Arup, Frödén & Søchting	Caloplaca holocarpa	30103785
-Candelaria	concolor	(Dicks.) Arnold		26748358
-Candelaria	concolor var. effusa	Tuck.		
+Candelaria	concolor	(Dickson) Stein		26748358
 Candelariella	efflorescens	R.C. Harris & W.R. Buck		27383116
-Chrysothrix	caesia	(Flot.) Ertz & Tehler	Arthonia caesia	
+Chrysothrix	caesia	(Flotow) Ertz & Tehler	Allarthonia caesia, Arthonia caesia, A. lecideella	
 Cladonia	apodocarpa	Robbins		26595315
 Cladonia	caespiticia	(Pers.) Flörke		1994625
-Cladonia	chlorophaea	(Flörke ex Sommerf.) Spreng.		26994248
-Cladonia	coniocraea	(Flörke) Spreng.		27793788
-Cladonia	conista	(Ach.) Robbins		
+Cladonia	chlorophaea	(Flörke ex Sommerf.) Sprengel		26994248
+Cladonia	coniocraea	(Flörke) Sprengel		27793788
+Cladonia	conista	(Nyl.) Robbins		
 Cladonia	cristatella	Tuck.		31469877
 Cladonia	cristatella f. squamosissima	Robbins ex A. Evans		
 Cladonia	mateocyatha	Robbins		
-Cladonia	peziziformis	(With.) J.R. Laundon		26595491
-Cladonia	polycarpoides	Nyl.		27793773
-Cladonia	ramulosa	(With.) J.R. Laundon		19154355
+Cladonia	peziziformis	(With.) J. R. Laundon		26595491
+Cladonia	ramulosa	(With.) J. R. Laundon		19154355
 Cladonia	rei	Schaer.		
 Cladonia	subcariosa	Nyl.		1994647
-Flavoparmelia	baltimorensis	(Gyeln. & Fóriss) Hale		
-Flavoparmelia	caperata	(L.) Hale		
-Flavopunctelia	soredica	(Nyl.) Hale		
+Flavoparmelia	baltimorensis	(Gyelnik & Fóriss) Hale	Parmelia baltimorensis, Pseudoparmelia baltimorensis	
+Flavoparmelia	caperata	(L.) Hale	Parmelia caperata, P. cylisphora, P. flavicans, P. herreana, P. negativa, Pseudoparmelia caperata	
+Flavopunctelia	soredica	(Nyl.) Hale	Parmelia soredica, P. ulophyllodes, P. manshurica, Punctelia soredica	
 Graphis	scripta	(L.) Ach.		
 Lecanora	caesiorubella	Ach.		
-Lecanora	dispersa	(Pers.) Röhl.		
-Lecanora	strobilina	(Spreng.) Kieff.		
-Leimonis	erratica	(Körb.) R.C. Harris & Lendemer	Micarea erratica	
-Lepraria	caesiella	R.C. Harris		
-Lepraria	lobificans	Nyl.	Lepraria finkii	
-Melanelixia	subaurifera	(Nyl.) O. Blanco, A. Crespo, Divakar, Essl., D. Hawksw. & Lumbsch		
-Multiclavula	mucida	(Pers.) R.H. Petersen		26603689
-Myelochroa	aurulenta	(Tuck.) Elix & Hale		
-Oxneria	fallax	(Arnold) S.Y. Kondr. & Kärnefelt	Xanthomendoza fallax, Xanthoria fallax	
+Lecanora	strobilina	(Sprengel) Kieffer		
+Leimonis	erratica	(Körber) R. C. Harris & Lendemer	Lecidea chalybeiformis, L. erratica, L. suberratica, Micarea erratica	
+Lepraria	caesiella	R. C. Harris		
+Lepraria	finkii	(B. de Lesd.) R. C. Harris	Crocynia aliciae, C. americana	
+Melanelixia	subaurifera	(Nyl.) O. Blanco et al.	Melanelia subaurifera, Parmelia subaurifera	
+Multiclavula	mucida	(Fr.) R. Petersen		26603689
+Myelochroa	aurulenta	(Tuck.) Elix & Hale	Parmelina aurulenta, Parmelia aurulenta, P. silvestris	
+Myriolecis	dispersa	(Pers.) Śliwa, Zhao Xin & Lumbsch	Lecanora dispersa	
 Parmelia	sulcata	Taylor		
-Parmotrema	hypoleucinum	(J. Steiner) Hale		
-Parmotrema	hypotropum	(Nyl.) Hale		
-Parmotrema	perlatum	(Huds.) M. Choisy		
-Parmotrema	stuppeum	(Taylor) Hale		
+Parmotrema	hypoleucinum	(J. Steiner) Hale	Parmelia hypoleucina	
+Parmotrema	hypotropum	(Nyl.) Hale	Parmelia hypotropa, Parmelia hypotropa var. sorediata, P. cetrata var. hypotropoides	
+Parmotrema	perlatum	(Hudson) M. Choisy	Parmelia perlata, P. trichotera	
+Parmotrema	stuppeum	(Taylor) Hale	Parmelia stuppea, P. claudelii, P. maxima	
 Peltigera	canina	(L.) Willd.		
-Phaeophyscia	adiastola	(Essl.) Essl.		
+Phaeophyscia	adiastola	(Essl.) Essl.	Physcia adiastola	
 Phaeophyscia	insignis	(Mereschk.) Moberg		
-Phaeophyscia	orbicularis	(Neck.) Moberg		
-Phaeophyscia	rubropulchra	(Degel.) Moberg		
+Phaeophyscia	orbicularis	(Necker) Moberg	Physcia orbicularis, P. virella	
+Phaeophyscia	rubropulchra	(Degel.) Essl.	Physcia orbicularis f. rubropulchra, P. endochrysea, P. rubropulchra	
 Physcia	adscendens	(Fr.) H. Olivier		
 Physcia	dubia	(Hoffm.) Lettau		
 Physcia	millegrana	Degel.		
 Physcia	stellaris	(L.) Nyl.		
-Physciella	chloantha	(Ach.) Essl.		
-Porpidia	albocaerulescens	(Wulfen) Hertel & Knoph		
-Porpidia	crustulata	(Ach.) Hertel & Knoph		
+Physciella	chloantha	(Ach.) Essl.	Physcia chloantha, P. luganensis, Phaeophyscia chloantha	
+Porpidia	albocaerulescens	(Wulfen) Hertel & Knoph	Huilia albocaerulescens, Lecidea albocaerulescens, L. hebescens	
+Porpidia	crustulata	(Ach.) Hertel & Knoph	Huilia crustulata, Lecidea crustulata	
 Punctelia	caseana	Lendemer & Hodkinson		
-Punctelia	rudecta	(Ach.) Krog		
-Rinodina	glauca	Ropin		
-Sarcogyne	clavus	(DC.) Kremp.		
-Trapelia	coarctata	(Turner ex Sm.) M. Choisy		
+Punctelia	rudecta	(Ach.) Krog	Parmelia rudecta	
+Rinodina	freyi	H. Magn.		
+Sarcogyne	clavus	(DC.) Kremp.	Biatorella clavus	
+Trapelia	coarctata	(Turner) M. Choisy	Lecidea coarctata	
 Trapelia	placodioides	Coppins & P. James		
+Usnocetraria	oakesiana	(Tuck.) M. J. Lai & C. J. Wei	Allocetraria oakesiana, Cetraria oakesiana, Tuckermannopsis oakesiana	
 Xanthocarpia	feracissima	(H. Magn.) Frödén, Arup & Søchting	Caloplaca feracissima	
-Xanthoparmelia	plittii	(Gyeln.) Hale		
-Xanthoria	parietina	(L.) Beltr.		
+Xanthomendoza	fallax	(Hepp ex Arnold) Søchting, Kärnefelt & S. Y. Kondr.	Xanthoria fallax	
+Xanthoparmelia	plittii	(Gyelnk) Hale	Parmelia plittii	
+Xanthoria	parietina	(L.) Th. Fr.	Teloschistes parietinus	

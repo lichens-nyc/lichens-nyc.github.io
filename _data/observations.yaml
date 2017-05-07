@@ -32,6 +32,9 @@ Candelaria:
     JE:
     - when: 1994
       who: TD
+    MB:
+    - when: 1994
+      who: TD
     NY:
     - when: 2014
       who: NP
@@ -45,6 +48,9 @@ Candelaria:
     QV:
     - when: 1994
       who: TD
+    RP:
+    - when: 1994
+      who: TD
     SP:
     - when: 2014
       who: NP
@@ -53,13 +59,6 @@ Candelaria:
     WC:
     - when: 2014
       who: NP
-  concolor var. effusa:
-    MB:
-    - when: 1994
-      who: TD
-    RP:
-    - when: 1994
-      who: TD
     WS:
     - when: 1994
       who: TD
@@ -132,10 +131,6 @@ Cladonia:
     CH:
     - when: 1994
       who: TD
-  polycarpoides:
-    RR:
-    - when: 1994
-      who: TD
   ramulosa:
     AP:
     - when: 1966
@@ -167,6 +162,9 @@ Cladonia:
     AP:
     - when: 1966
       who: IB
+    RR:
+    - when: 1994
+      who: TD
 Flavoparmelia:
   baltimorensis:
     CP:
@@ -221,13 +219,6 @@ Lecanora:
     MB:
     - when: 1994
       who: TD
-  dispersa:
-    CP:
-    - when: 2015
-      who: JA
-    PP:
-    - when: 1966
-      who: IB
   sp.:
     HL:
     - when: 2002
@@ -242,7 +233,7 @@ Leimonis:
     - when: 1966
       who: IB
 Lepraria:
-  lobificans:
+  finkii:
     CP:
     - when: 2013
       who: JA
@@ -268,11 +259,14 @@ Myelochroa:
     GW:
     - when: 2014
       who: NP
-Oxneria:
-  fallax:
-    GD:
-    - when: 1994
-      who: TD
+Myriolecis:
+  dispersa:
+    CP:
+    - when: 2015
+      who: JA
+    PP:
+    - when: 1966
+      who: IB
 Parmelia:
   sp.:
     VC:
@@ -443,7 +437,7 @@ Punctelia:
     - when: 2015
       who: NP
 Rinodina:
-  glauca:
+  freyi:
     HL:
     - when: 2002
       who: RS
@@ -494,6 +488,11 @@ Xanthocarpia:
     SP:
     - when: 2015
       who: NP
+Xanthomendoza:
+  fallax:
+    GD:
+    - when: 1994
+      who: TD
 Xanthoparmelia:
   plittii:
     CP:

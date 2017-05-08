@@ -48,6 +48,9 @@ sites:
   JE:
     boro: QU
     name: Jamaica Estates
+  KE:
+    boro: BK
+    name: Kensington
   LN:
     boro: QU
     name: Little Neck Bay

@@ -493,6 +493,9 @@ Xanthomendoza:
     GD:
     - when: 1994
       who: TD
+    KE:
+    - when: 2017
+      who: NP
 Xanthoparmelia:
   plittii:
     CP:
